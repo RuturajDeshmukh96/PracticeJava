@@ -12,7 +12,7 @@ public class Example {
        System.out.println("Enter the frist number");
        int a = sc.nextInt();
 
-       System.out.println("Enter the seconf number ");
+       System.out.println("Enter the second number ");
        int b = sc.nextInt();
 
 
