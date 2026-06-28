@@ -7,10 +7,10 @@ public class Great {
 
         Scanner sc = new Scanner (System.in);
 
-        System.out.println("Enter the valus :");
+        System.out.println("Enter the value :");
         int a = sc.nextInt();
 
-        System.out.println("Enter the value is :") ;
+        System.out.println("Entered the value is :") ;
         System.out.println (a >8);
 
     }
