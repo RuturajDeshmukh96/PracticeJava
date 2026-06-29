@@ -1,7 +1,7 @@
 package Conditions;
 import  java .util.*;
 public class Prac {
-    public static void main(String[] aegs) {
+    public static void main(String[] args) {
 
         System.out.println("enter your age") ;
         Scanner scan = new Scanner(System.in);
