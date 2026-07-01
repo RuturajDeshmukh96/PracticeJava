@@ -1,16 +1,16 @@
-package Conditions;
+package Conditions ;
 
-public class do_while {
+public class _Do {
 
-    public static void main(String[] args) {
-        int i = 1;
+    public static void main  (String [] args){
+
+        int z = 10;
+
         do {
-            System.out.println(i);
-            i++;
+            System.out.println(z);
+             z++;
         }
-        while (i <= 50) ;{
 
-        }
+        while ( z <=110);
     }
 }
-
