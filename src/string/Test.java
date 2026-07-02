@@ -7,5 +7,6 @@ public class Test {
         String name = ("i love coding ");
         name = name.replace("love ",   "Hate" );
         System.out.println(name );
+        System.out.println("run");
     }
 }
