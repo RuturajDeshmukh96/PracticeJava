@@ -18,7 +18,7 @@ public class Days {
             case 6 -> System.out.println("Friday");
             case 7 -> System.out.println("Saturday");
 
-
+            default -> System.out.println("Enter only week days ");
         }
 
     }

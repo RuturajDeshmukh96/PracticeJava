@@ -20,7 +20,7 @@ public class _Switch {
         break;
 
             default:
-                System.out.println(" just enjoy the journy don't think  about your age");
+                System.out.println(" just enjoy the journy don't think about your age");
 
 
     }
