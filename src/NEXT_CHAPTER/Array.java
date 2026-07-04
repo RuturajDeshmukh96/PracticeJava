@@ -11,7 +11,7 @@ public class Array {
        marks [2] = 9;
        marks [3] =13;
        marks [4] = 14;
-       System.out.println(marks [4]);
+       System.out.println(marks [0]);
 
     }
 }
