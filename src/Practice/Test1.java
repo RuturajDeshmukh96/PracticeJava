@@ -5,7 +5,7 @@ public class Test1 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+   // input from user
         int[] marks = new int[5];
 
         System.out.println("Enter the 5 students percentage % :");
