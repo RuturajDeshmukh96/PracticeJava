@@ -8,10 +8,10 @@ public class Scene {
           int Seatno = scan.nextInt();
 
           if ( Seatno % 2 == 0){
-              System.out.println(" Your seat is at Right side ");
+              System.out.println(" Your seat is at Right side --> Enjoy your film ");
 
 
-        }else {System.out.println("your seat is at left side ");}
+        }else {System.out.println("your seat is at left side --> Enjoy your film  ");}
 
     }
 }
