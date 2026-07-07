@@ -2,7 +2,7 @@ package NEXT_CHAPTER;
 
 public class New {
 
-   // public class Main {
+
         public static void main(String[] args) {
             int[] items = {101, 204, 305, 402, 509};
             int target = 402;
@@ -18,7 +18,7 @@ public class New {
             if (foundIndex != -1) {
                 System.out.println("Found " + target + " at index: " + foundIndex);
             } else {
-                System.out.println(target + " is not in the array.");
+                System.out.println(target + " is not in this array.");
             }
         }
     }
