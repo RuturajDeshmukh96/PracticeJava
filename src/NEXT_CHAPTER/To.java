@@ -3,7 +3,7 @@ package NEXT_CHAPTER;
 public class To {
 
     public static void main(String[] args) {
-        int[] prices = {5, 12, 3, 8, 2};
+        int[] prices = {5, 12, 3, 8, 2,15 };
         int sum = 0;
 
         for (int i = 0; i < prices.length; i++) {
@@ -14,4 +14,3 @@ public class To {
     }
 }
 
-// the java
