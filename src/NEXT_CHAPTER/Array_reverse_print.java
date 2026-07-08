@@ -12,12 +12,33 @@ public class Array_reverse_print {
 //    }
 
 
-    public static void main(String[] args) {
-        String[] Names = {"Ruturaj ", "Shahu", "Deshmukh"};
-        System.out.println("Printing array in reverse direction ");
-        for (int i =Names.length-1; i>=0; i--) {
+//    public static void main(String[] args) {
+//        String[] Names = {"Ruturaj ", "Shahu", "Deshmukh"};
+//        System.out.println("Printing array in reverse direction ");
+//        for (int i =Names.length-1; i>=0; i--) {
+//
+//            System.out.println(Names[i]);
+//        }
+//    }
+//}
 
-            System.out.println(Names[i]);
-        }
-    }
+//          public static void main (String [] arge ){
+//
+//              int [] marks = {55,85,95,105,};
+//             System.out.println("printing the array using the for - each loop ");
+//              for (int element : marks ){
+//                  System.out.println(element);
+//              }
+//          }
+//}
+
+ public static void main (String [] args ){
+
+     String [] Names = {"Gaanesh ","Ruuturaaaj ","Rajesh  ", "ravindra"};
+     System.out.println("Printing the array String using the for each loop ");
+     for (String element : Names  ){
+         System.out.println(element);
+     }
+
+ }
 }
