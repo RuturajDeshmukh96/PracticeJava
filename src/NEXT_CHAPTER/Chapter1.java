@@ -3,6 +3,7 @@ package NEXT_CHAPTER;
 public class  Chapter1 {
 
     public static void main (String [] args ){
+        System.out.println("Printing The functions of array ");
 
         int []  marks = {66,55,44,11,22,33,};
         float [] score = {61.1f,88.9f,86.9f};
