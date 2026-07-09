@@ -4,7 +4,7 @@ public class Scex {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter your bill Amount ");
+        System.out.println("Enter your bill Amount : ");
 
         Scanner scan = new Scanner(System.in);
 
