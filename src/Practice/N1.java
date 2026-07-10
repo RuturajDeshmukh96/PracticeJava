@@ -7,6 +7,6 @@ public class N1 {
         thor ("Do or Die ");
     }
     public static void thor (String name ){
-        System.out.println("The Thor is warning for avengars :"+ name);
+        System.out.println("The Thor is warning for Avengars :"+ name);
     }
 }
