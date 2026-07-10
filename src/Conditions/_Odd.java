@@ -2,7 +2,6 @@ package Conditions;
 import java.util.*;
 public class _Odd {
   public static void main (String [ ] args ) {
-
       Scanner scan = new Scanner (System.in);
       System.out.println("enter the start number:");
       //int a = scan.nextInt();
