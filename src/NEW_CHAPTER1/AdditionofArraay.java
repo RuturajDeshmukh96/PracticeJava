@@ -9,7 +9,9 @@ public class AdditionofArraay {
         for (float rum : marks){
             sum = sum + rum ;
         }
-            System.out.println(sum);
+            System.out.println("The sum of this array is the : " +  sum);
+
+         System.out.println("the averge og this arraay is " + sum/marks.length);
         }
     }
 
