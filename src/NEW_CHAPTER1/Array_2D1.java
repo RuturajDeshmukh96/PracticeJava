@@ -24,7 +24,7 @@ public class Array_2D1 {
 //}
   for (int i = 0 ; i<flats[i].length;i++){
      for (int j = 0; j <flats[i].length;j++){
-System.out.println("printing array using the for each loop");
+System.out.println("Printing Array using the for each loop");
           System.out.println(flats[i][j]);
 
           }
