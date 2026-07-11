@@ -34,8 +34,8 @@ public class Array_reverse_print {
 
  public static void main (String [] args ) {
 
-     String[] Names = {"Gaanesh ", "Ruuturaaaj ", "Rajesh  ", "ravindra"};
-     System.out.println("Printing the array String using the for each loop ");
+     String[] Names = {"Gaanesh ", "Ruturaaaj ", "Rajesh  ", "ravindra"};
+     System.out.println("Printing the Array String using the for each loop ");
      for (String element : Names) {
          System.out.println(element);
      }
