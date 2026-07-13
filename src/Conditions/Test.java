@@ -8,9 +8,9 @@ public class Test {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println(" Enter the marks ");
+        System.out.println(" Enter the marks of 3 subject  ");
 
-        System.out.println("Enter sci marks");
+        System.out.println("Enter science marks");
 
         m1 = scan.nextInt();
 
@@ -18,7 +18,7 @@ public class Test {
 
         m2 = scan.nextInt();
 
-        System.out.println("Enter the eng marks ");
+        System.out.println("Enter the english marks ");
 
         m3 = scan.nextInt();
 
@@ -26,7 +26,7 @@ public class Test {
         System.out.println("your total percenatge is " + percentage);
 
         if (percentage >= 40 && m1 >= 33 && m2 >= 33 && m3 >= 33) {
-            System.out.println("Congratulations you are passed successsfully");
+            System.out.println("Congratulations..! you are passed successfully");
 
         } else {
             System.out.println(" Try again you are failed...!!!");
