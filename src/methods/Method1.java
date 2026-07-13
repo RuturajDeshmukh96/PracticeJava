@@ -3,7 +3,7 @@ package methods;
 public class Method1 {
 
     public static void Show(){
-        System.out .println("welcome to the calculation");
+        System.out .println("Welcome..! to the calculation");
 
     }
     public static int  Cal(int a , int b){
