@@ -19,7 +19,7 @@ public class Meth {
         Showmessage();
 
        int myresult= Multiply (8,2);
-       System.out.println("the multiplication of given values are " + myresult);
+       System.out.println("The Multiplication of given values are " + myresult);
 
     }
 }
