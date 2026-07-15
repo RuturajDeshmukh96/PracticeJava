@@ -41,4 +41,4 @@ public class What1{
 
         System.out.println(a * b);
     }
-}
+}//
