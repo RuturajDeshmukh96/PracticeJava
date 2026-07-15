@@ -2,7 +2,7 @@ package methods;
 public class Example {
 
     public static void main(String[] args) {
-
+          // int
         int marks = 90;
         int passing_marks = 45;
 
