@@ -19,6 +19,6 @@ public class M1 {
         public static void SachinTendulkar(String name ){
     System.out.println("The commentator ask to audienc3 tell me your favorite crickter & shot :- " + name );
 
-    }
-}
+    }//
+}//
 
