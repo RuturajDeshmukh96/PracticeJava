@@ -18,4 +18,4 @@ class doly extends Parent2 {
       doly obj = new doly();
       obj .show1 ();
   }
- }
+ }// overridding
