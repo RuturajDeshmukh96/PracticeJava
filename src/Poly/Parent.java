@@ -1,12 +1,12 @@
 package Poly;
 
-public class Parent {
+class Parent1 {
 
     public void showmessage(){
         System.out.println("this the old process");
     }
 }
-  class child extends Parent {
+  class child1 extends Parent1 {
 
   @Override
       public void showmessage(){
@@ -15,7 +15,7 @@ public class Parent {
  }
 public static void main(String [] raj2){
 
-     child myobj = new child() ;
+     child1 myobj = new child1 ();
 
      myobj.showmessage();
 }
