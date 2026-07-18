@@ -1,4 +1,4 @@
-package Constructor;
+package Poly;
 
 // १. मॉन्स्टर क्लास (स्वतंत्र)
 class Monster {
