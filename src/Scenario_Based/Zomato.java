@@ -6,7 +6,7 @@ import java.util.Scanner ;
         System.out.println("your"+ " " + thali + " "+"is ready to go please wait for 5 min  "+ " you ordered  " + plates +" "+ "plate");
     }
     public void order(String colddrink){
-        System.out.println(" And also you orderrd "+ " " + colddrink +" " +  "colddrink");
+        System.out.println(" And also you ordered "+ " " + colddrink +" " +  "colddrink");
     }
 
 }
