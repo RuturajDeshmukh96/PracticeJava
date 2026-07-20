@@ -12,7 +12,7 @@ import java.util.Scanner ;
 }
  class Delivary  {
 
-    public static void main (String [] Zomato){
+    public static void main (String [] Tomato){
 
         Zomato order= new Zomato ();
 
