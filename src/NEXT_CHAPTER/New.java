@@ -5,7 +5,7 @@ public class New {
 
         public static void main(String[] args) {
             int[] items = {101, 204, 305, 402, 509};
-            int target = 400;
+            int target = 509;
             int foundIndex = -1;
 
             for (int i = 0; i < items.length; i++) {
