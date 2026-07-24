@@ -21,6 +21,6 @@ public class VARARGSRUNS {
        CountRuns(6,5,4,3,2,1);
        CountRuns(4,3,2,1,2,4);
        CountRuns(0);
-  }
+  }// this is now showing the user input also
 }
 
