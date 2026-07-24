@@ -17,5 +17,6 @@ public class Varargs2 {
         Run(33,11);
         Run (56,66,66,6655,42,2);
         Varargs2.Run(77,56,99,87);
+        Run(78,5);
     }
 }
