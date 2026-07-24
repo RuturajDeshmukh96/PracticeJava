@@ -1,5 +1,5 @@
 package Practice;
-
+import java.util.*;
 public class VARARGSRUNS {
    static void CountRuns (int...runs){
        System.out.println(" this is priting counting the  runs ");
@@ -14,7 +14,9 @@ public class VARARGSRUNS {
   public static void main (String [] raje ) {
 
        System.out.println("this is printing the runs counnting" );
-
+  Scanner scan = new Scanner (System.in);
+  System.out.println("enter the frist over runs ");
+     int runs = scan.nextInt();
        CountRuns (1,2,3,6,0,3);
        CountRuns(6,5,4,3,2,1);
        CountRuns(4,3,2,1,2,4);
