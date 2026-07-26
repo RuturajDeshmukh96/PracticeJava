@@ -8,10 +8,12 @@ public class Fact {
         int  number =5 ;
         int fact = 1;
 
-        for (int i = 1 ; i< number ; i++){
+        for (int i = 1 ; i<= number ; i++){
 
             fact = fact * i ;
-            System.out.println(number + "factorial is " + fact);
+
         }
+        System.out.println(number  + "" + "'s factorial is " + fact);
     }
+
 }
