@@ -9,12 +9,12 @@ public class Fact3 {
 
         int number = scan.nextInt();
 
-        int fact = 1;
+        int fact = 1 ;
 
         for (int i = 1; i <= number; i++) {
             fact = fact * i;
 
         }
-        System.out.println(number + "the factorial is " + fact);
+        System.out.println("the factorial " +  number + " IS"+ " " +  fact);
     }
 }
