@@ -18,9 +18,17 @@ public class Boss {
        System.out.println( Fast(22,60));
        int result = Fast(90,90);
        System.out.println(result);
+
+        System.out.println("below output is from instance block");
+        Boss obj = new Boss();
     }
     static {
         System.out.println("this is printing the static block");
+
+    }
+
+    {
+        System.out.println("this is printting the instance block in java ");
     }
 }
 
