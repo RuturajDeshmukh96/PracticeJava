@@ -13,6 +13,18 @@ public class Boss {
 
 
     public static void main(String [] raj){
+
+  System.out.println("thiss is printing command line arguments ");
+        for (String jdk: raj ){
+            System.out.println(jdk);
+        }
+
+
+
+
+
+
+
         System.out.println("this is printing the static main method");
 
        System.out.println( Fast(22,60));
