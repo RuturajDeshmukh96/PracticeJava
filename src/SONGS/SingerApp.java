@@ -3,7 +3,7 @@ package SONGS;
 public class SingerApp {
 
     public static void sing(String lyrics, int pauseTime) throws InterruptedException {
-        System.out.println("🎵 " + lyrics);
+        System.out.println("🎵 " + lyrics + " 👻 ");
         Thread.sleep(pauseTime);
     }
 
@@ -28,5 +28,5 @@ public class SingerApp {
 
         sing("unn....aa..unn.....un", 2200);
         sing("unnn..aaa..unn.un.unn..un..a.un..", 3500);
-    }
+    }// done
 }
