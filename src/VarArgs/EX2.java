@@ -17,6 +17,7 @@ public class EX2 {
         public static void main (String [] args){
 
         run(22,33,55);
+        run(77,88,99);
 
 
 
