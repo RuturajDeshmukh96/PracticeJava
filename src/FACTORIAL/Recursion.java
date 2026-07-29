@@ -7,10 +7,10 @@ public class Recursion {
         public static int factorial ( int n ){
 
         if (n == 1 ){
-            return 1 ;
+            return 1 ;// this stops the recursion
         }
 
-            return  n* factorial (n- 1);
+            return  n* factorial (n- 1); // this calls methods itself for calculations
 
         }
     }
