@@ -19,7 +19,7 @@ public class Palindrome {
        if (ori  == reverse ) {
            System.out.println(ori + " : is a palindrome number");
        }else{
-           System.out.println(ori +" :is not a palindrome number");
+           System.out.println(ori +" : is not a palindrome number");
        }
     }
 }
