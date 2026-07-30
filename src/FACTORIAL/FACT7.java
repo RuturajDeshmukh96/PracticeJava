@@ -12,7 +12,7 @@ public class FACT7 {
             fact = fact * i ;
 
             System.out .println(fact);
-        }
+        }// done
 
 
     }
