@@ -2,7 +2,7 @@ package FACTORIAL;
 import java.util.Scanner ;
 public class FACT7 {
     public static void main (String []args ){
-        System.out.println("Enter your number  here");
+        System.out.println("Enter your number here");
         Scanner Rut = new Scanner (System.in);
         int num = Rut.nextInt();
         int fact = 1;
