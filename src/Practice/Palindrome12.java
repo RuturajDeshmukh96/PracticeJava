@@ -17,9 +17,9 @@ int ori = number ;
 
             }
         if  (ori == reverse ) {
-            System.out.println("thiss  is palindrome number ");
+            System.out.println("this is palindrome number ");
         }else{
-            System.out.println("not a palindrome numberr");
+            System.out.println("not a palindrome number");
         }
 
     }

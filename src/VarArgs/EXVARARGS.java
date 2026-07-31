@@ -10,6 +10,6 @@ public class EXVARARGS {
         }
     }
     public  static void main (String []  args){
-        Runs(55,55);
+        Runs(515,545);
     }
 }
