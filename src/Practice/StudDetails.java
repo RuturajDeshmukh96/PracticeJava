@@ -1,5 +1,5 @@
 package Practice;
-
+import java.util.Scanner;
 public class StudDetails {
     int id ;
     int age ;
@@ -11,9 +11,7 @@ public class StudDetails {
     String  your_name ;
     String hostel_name ;
     boolean feepaid;
-
-
-
+    String opinion ;
     public void printdetails(){
         System.out.println("this is printing the imp  details only");
         System.out.println("name " + your_name);
@@ -21,13 +19,12 @@ public class StudDetails {
         System.out.println("fees are paid or not "+feepaid);
     }
 }
-
-
 class Information{
     public static void main(String [] args){
-
+        Scanner scan = new Scanner(System.in);
         StudDetails Stud = new StudDetails();
-
+        System.out.println("Enter stud opinion here ");
+        Stud.opinion = scan.nextLine();
         Stud.id = 01;
         Stud.age = 22;
         Stud.roll = 33;
@@ -36,9 +33,8 @@ class Information{
         Stud.fees = 54000;
         Stud.collage_name = "Sveri";
         Stud.your_name = "Ruturaj";
-        Stud.hostel_name = "boys - 2";
+        Stud.hostel_name = "boys -> 2";
         Stud.feepaid = true ;
-
         System.out.println("The id of this stud is :  " +Stud.id);
         System.out.println("The age of this stud is :  "+Stud.age);
         System.out.println("The roll no of this stud is :  "+Stud.roll);
@@ -49,11 +45,8 @@ class Information{
         System.out.println("The your name of this stud is :  "+Stud.your_name);
         System.out.println("The fees are paid  of this stud is :  "+Stud.feepaid);
         System.out.println("The hostel_name of this stud is :  "+Stud.hostel_name);
-
-
-        // now printing through the method
+        System.out.println("The student says :  "+Stud.opinion);
 
         Stud.printdetails();
-
     }
 }
