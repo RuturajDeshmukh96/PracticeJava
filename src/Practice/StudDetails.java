@@ -48,5 +48,6 @@ class Information{
         System.out.println("The student says :  "+Stud.opinion);
 
         Stud.printdetails();
+        scan.close();
     }
 }
