@@ -11,7 +11,18 @@ public class StudDetails {
     String  your_name ;
     String hostel_name ;
     boolean feepaid;
+
+
+
+    public void printdetails(){
+        System.out.println("this is printing the imp  details only");
+        System.out.println("name " + your_name);
+        System.out.println("collage name "+ collage_name);
+        System.out.println("fees are paid or not "+feepaid);
+    }
 }
+
+
 class Information{
     public static void main(String [] args){
 
@@ -38,6 +49,11 @@ class Information{
         System.out.println("The your name of this stud is :  "+Stud.your_name);
         System.out.println("The fees are paid  of this stud is :  "+Stud.feepaid);
         System.out.println("The hostel_name of this stud is :  "+Stud.hostel_name);
+
+
+        // now printing through the method
+
+        Stud.printdetails();
 
     }
 }
