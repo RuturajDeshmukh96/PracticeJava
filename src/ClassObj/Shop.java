@@ -14,7 +14,7 @@ public class Shop {
         System.out.println("The product prize = " + productPrize);
         System.out.println("The quantity is " + quantity);
         System.out.println("The user feedback : " + feedBack);
-        System.out.println("Your grand total is : " + productPrize * quantity  + "  \nThank You..!\nVisit Agin...😊");
+        System.out.println("Your grand total is : " + (productPrize * quantity)  + "  \nThank You..!\nVisit Agin...😊");
     }
 }
 class Bill {
