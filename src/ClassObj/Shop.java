@@ -28,8 +28,6 @@ class Bill {
         mart.productId = 101;
         mart.productPrize = 69.33f;
         mart.quantity = 10 ;
-
         mart.printBill();
-
     }
 }
