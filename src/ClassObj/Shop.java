@@ -6,6 +6,7 @@ public class Shop {
     float productPrize;
     int  quantity;
     String feedBack;
+    int calculate;
     public void printBill(){
 
         System.out.println("The product id = " + productId);
@@ -13,6 +14,7 @@ public class Shop {
         System.out.println("The product prize = " + productPrize);
         System.out.println("The quantity is " + quantity);
         System.out.println("The user feedback : " + feedBack);
+        System.out.println("Your grand total is : " + productPrize * quantity  + "  \nThank You..!\nVisit Agin...😊");
     }
 }
 class Bill {
