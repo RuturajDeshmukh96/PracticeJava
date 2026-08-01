@@ -21,10 +21,8 @@ public class StudDetails {
 }
 class Information{
     public static void main(String [] args){
-        Scanner scan = new Scanner(System.in);
+
         StudDetails Stud = new StudDetails();
-        System.out.println("Enter stud opinion here ");
-        Stud.opinion = scan.nextLine();
         Stud.id = 01;
         Stud.age = 22;
         Stud.roll = 33;
@@ -45,8 +43,10 @@ class Information{
         System.out.println("The your name of this stud is :  "+Stud.your_name);
         System.out.println("The fees are paid  of this stud is :  "+Stud.feepaid);
         System.out.println("The hostel_name of this stud is :  "+Stud.hostel_name);
+        System.out.println("Enter stud opinion here ");
+        Scanner scan = new Scanner(System.in);
+        Stud.opinion = scan.nextLine();
         System.out.println("The student says :  "+Stud.opinion);
-
         Stud.printdetails();
         scan.close();
     }
