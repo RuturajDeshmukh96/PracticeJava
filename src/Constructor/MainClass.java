@@ -11,10 +11,25 @@ public class MainClass {
         System.out.println("This is from the Constructor ");
     }
 }
-class SubClass{
-    public static void main(String [] args ){
-        MainClass obj = new MainClass(12,13,"done");
+interface Magic {
+    void manu();
+    default void  manu1 (){
+
+        System.out.println("This is from the ");
+    }
+
+        }
+
+class SubClass implements Magic {
+    public static void main(String [] args ) {
+        MainClass obj = new MainClass(12, 13, "done");
+    }
+        @Override
+       public  void  manu1 (){
+
+            System.out.println("This is from the ");
+        }
 
     }
 
-}
+
