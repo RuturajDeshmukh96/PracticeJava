@@ -5,13 +5,13 @@ public class MainClass1 {
     int marks ;
     String name ;
     int grade;
-    public MainClass1(int age, int marks , String name ,float a ){
+    public MainClass1(int age, int marks , String name ,int grade ){
         this.age=age;
         this.marks=marks ;
         this.name=name;
         this.grade=grade;
         System.out.println("This line is from Constructor 1");
-        System.out.println(age + " " + marks + " " + name + " " + a);
+        System.out.println(age + " " + marks + " " + name + " " + grade );
     }
     public void Over(){
         System.out.println("I am creating this for const Overriding 2");
