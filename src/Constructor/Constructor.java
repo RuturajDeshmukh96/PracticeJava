@@ -1,6 +1,6 @@
 package Constructor;
 
- class Constructor1 {
+class Constructor1 {
 int a ;
 int b;
 
