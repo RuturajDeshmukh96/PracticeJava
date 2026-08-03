@@ -1,4 +1,4 @@
-package Constructor;
+package oops;
 
 public class MainClass {
     int a;

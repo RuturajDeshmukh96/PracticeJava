@@ -1,4 +1,4 @@
-package Constructor;
+package oops;
 
 class Constructor1 {
 int a ;
