@@ -3,12 +3,12 @@ package oops;
 public class Player {
  String name ;
  int health ;
-
-   public Player(String name , int health ){
+int kills ;
+   public Player(String name , int health ,int kills ){
     this.name = name ;
     this.health= health;
     System.out.println("this line is from the constructor");
-    System.out.println(" this is player info :  " + name +"   and health is  "  + health);
+    System.out.println(" this is player info :  " + name +"   and health is  "  + health + " kills by the " +name + " are " + kills);
    }
     public void shoot(){
     System.out.println("the player is firing the bullets ");
@@ -24,12 +24,12 @@ interface Powerups {
 }
 class Proplayer extends Player implements Powerups {
 
- public Proplayer (String name ,int health ){
-  super(name,health);
+ public Proplayer (String name ,int health,int kills  ){
+  super(name,health,kills );
 
  }
  public static void main (String [] args ){
-  Proplayer obj = new Proplayer("rutu",100);
+  Proplayer obj = new Proplayer("rutu",100,18);
   obj.Defaultwall();
   obj.shoot();
   obj.review();
