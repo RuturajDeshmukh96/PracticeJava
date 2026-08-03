@@ -29,8 +29,7 @@ class Monstercar  extends Vehicle implements  op {
     public static void main(String [] args ){
         Monstercar obj =  new Monstercar (301,"TOYOTA SUPRAAA");
         obj.Run();
-        obj.startengine();
-        obj.Run();
+
         obj.startengine();
        obj.nitro();
        obj.fly();
@@ -42,13 +41,13 @@ class Monstercar  extends Vehicle implements  op {
     }
     @Override
     public void Run(){
-        super.Run();
+       // super.Run();
         System.out.println("the car is start and running like a  rocket");
     }
     @Override
     public void startengine (){
         System.out.println("engine is started ");
-        super.startengine();
+       // super.startengine();
     }
 
 
