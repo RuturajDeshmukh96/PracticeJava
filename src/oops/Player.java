@@ -8,7 +8,7 @@ int kills ;
     this.name = name ;
     this.health= health;
     System.out.println("this line is from the constructor");
-    System.out.println(" this is player info :  " + name +"   and health is  "  + health + " kills by the " +name + " are " + kills);
+    System.out.println(" this is player info NAME : -- " + name +" ---  and health is : "  + health + " ---kills by the ----" +name + "--- are--- " + kills);
    }
     public void shoot(){
     System.out.println("the player is firing the bullets ");
