@@ -23,6 +23,9 @@ interface op{
     }
 }
 class Monstercar  extends Vehicle implements  op {
+
+    int laps;
+    int accidents ;
     public Monstercar(int speed , String name ){
         super(name ,speed);
     }
@@ -33,6 +36,8 @@ class Monstercar  extends Vehicle implements  op {
         obj.startengine();
        obj.nitro();
        obj.fly();
+        main(111,12);
+
 
     }
     @Override
@@ -51,4 +56,6 @@ class Monstercar  extends Vehicle implements  op {
     }
 
 
-}
+public static void main(int laps , int accidents ){
+        System.out.println(" this is from  overloading ");
+
