@@ -55,7 +55,7 @@ class Hulkbuster  extends Armor implements WeaponSystem {
         int count = 15 ;
         public void attack (int count){
         if (rockets >= count){
-            System.out.println("The remaining rockets are : "  + (count - rockets));
+            System.out.println("The remaining rockets are : " + (count - rockets));
             return;
 
 
