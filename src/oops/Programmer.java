@@ -9,7 +9,7 @@ public class Programmer {
     }
     public void writeCode(){
         System.out.println("The codder is writting code in intellij");
-        System.out.println("The name " + alisname + " ip address " + ipaddress);
+        System.out.println("The name of hackeer is : " + alisname + "\nip addressof the hacker is : " + ipaddress);
     }
     public void scansystem(){
         System.out.println(" scanning local devices  ");
@@ -20,7 +20,7 @@ interface SecurityTools {
     void byPass();
 
     default void hideIp() {
-        System.out.println("Ip address is hide now...--- you are a ghost now ");
+        System.out.println("Ip address is hide now--- you are a ghost now ");
     }
 }
 class EthicalHacker extends Programmer implements SecurityTools {
@@ -30,6 +30,7 @@ class EthicalHacker extends Programmer implements SecurityTools {
     public EthicalHacker(String alisname, String ipaddress, int Bounty) {
           super(alisname, ipaddress);
           this.Bounty=Bounty;
+          System.out.println("The bounty is " + Bounty);
     }
 
     public static void main(String[] args) {
@@ -52,16 +53,16 @@ obj.scansystem("960361");
 
     @Override
     public void byPass() {
-        System.out.println("The firewall is passed ");
+        System.out.println("The firewall is passed Succesfully ");
     }
 
     public void scansystem(String ownip) {
-        System.out.println(" scanningg for ownip found " + ownip);
+        System.out.println("scanningg for own-ip found & " + ownip);
 
     }
 
     public void scansystem(int targetip) {
-        System.out.println("scannig for the  targetip found " + targetip);
+        System.out.println("scanning for the  target-ip found % " + targetip);
     }
 }
 
