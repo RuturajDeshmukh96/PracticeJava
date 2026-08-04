@@ -45,13 +45,23 @@ int ammo ;
     }
 
     public void shoot(int bulletsToFire) {
+      if (bulletsToFire <= ammo ){
+          this.ammo = this.ammo - bulletsToFire;
 
+      }else {
+          System.out.println("Fired " +  bulletsToFire + " bullets! Remaining Ammo: " + this.ammo);
+      }
 
     }
 
     public static void main(String [] args ) {
 
-
+        zombie war = new zombie("Ruturaj " ,100,500);
+        war.heal();
+        war.meleeattack();
+        war.throwbomb ();
+        war.shoot ();
+        war.shoot (15);
     }
 
 
