@@ -25,37 +25,44 @@ interface op{
 class Monstercar  extends Vehicle implements  op {
 
     int laps;
-    int accidents ;
-    public Monstercar(int speed , String name ){
-        super(name ,speed);
+    int accidents;
+
+    public Monstercar(int speed, String name) {
+        super(name, speed);
     }
-    public static void main(String [] args ){
-        Monstercar obj =  new Monstercar (301,"TOYOTA SUPRAAA");
+
+    public static void main(String[] args) {
+        Monstercar obj = new Monstercar(301, "TOYOTA SUPRAAA");
         obj.Run();
 
         obj.startengine();
-       obj.nitro();
-       obj.fly();
-        main(111,12);
+        obj.nitro();
+        obj.fly();
+        main(111, 12);
 
 
     }
+
     @Override
-    public void fly(){
+    public void fly() {
         System.out.println(" The car is flying now using the nitrooo");
     }
+
     @Override
-    public void Run(){
-       // super.Run();
+    public void Run() {
+        // super.Run();
         System.out.println("the car is start and running like a  rocket");
     }
+
     @Override
-    public void startengine (){
+    public void startengine() {
         System.out.println("engine is started ");
-       // super.startengine();
+        // super.startengine();
     }
 
 
-public static void main(int laps , int accidents ){
+    public static void main(int laps, int accidents) {
         System.out.println(" this is from  overloading ");
 
+    }
+}
