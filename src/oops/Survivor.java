@@ -42,9 +42,9 @@ class zombie extends Survivor implements CombatAction {
 
     public void shoot() {
         if (health >= 20) {
-            System.out.println("Attack fire om enemy");
+            System.out.println("Attack fire on enemy");
         } else {
-            System.out.println("use medilit need to cover..");
+            System.out.println("use medikit need to cover..");
         }
     }
 
