@@ -44,7 +44,7 @@ class Fightership extends SpaceShip {
             missiles = missiles - count;
             System.out.println("Target locked! Fired " + count + " missiles! Remaining: " + missiles);
         }else {
-            System.out.println("Warning: Not enough missiles! ❌");
+            System.out.println("Warning: Not enough missiles! ");
         }
     }
 }
