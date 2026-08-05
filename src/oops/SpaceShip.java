@@ -52,12 +52,12 @@ class cargoship extends SpaceShip {
     int shieldHealth;
     public cargoship( int  energy  , String shipName ){
         super(shipName,energy);
-        this.shieldHealth=shieldHealth;
+        this.shieldHealth= shieldHealth;
     }
     @Override
     public void hyperDrive() {
         energy = energy - 5;
-        System.out.println("Heavy Cargo jumping slowly... 🐢 Energy left: " + energy );
+        System.out.println("Heavy Cargo jumping slowly...  Energy left: " + energy );
     }
 
 }
