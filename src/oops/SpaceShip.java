@@ -39,3 +39,16 @@ class Fightership extends SpaceShip {
         }
     }
 }
+class cargoship extends SpaceShip {
+    int shieldHealth;
+    public cargoship( int  shieldHealth , String shipName ){
+        super(shipName,shieldHealth);
+        this.shieldHealth=shieldHealth;
+    }
+    @Override
+    public void hyperDrive() {
+        energy = energy - 5;
+        System.out.println("Heavy Cargo jumping slowly... 🐢 Energy left: " + energy );
+    }
+
+}
