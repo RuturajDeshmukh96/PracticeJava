@@ -40,7 +40,6 @@ class Fightership extends SpaceShip {
     }
 
     public void attack(int count) {
-        //int count = 25 ;
         if (missiles >= count) {
             missiles = missiles - count;
             System.out.println("Target locked! Fired " + count + " missiles! Remaining: " + missiles);
