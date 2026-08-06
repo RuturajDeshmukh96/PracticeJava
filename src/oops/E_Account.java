@@ -20,4 +20,19 @@ public class E_Account {
 
     private String accountholder;
     private int getaccountfolder;
+
+
+}
+
+class  Bills extends E_Account {
+
+    public static void main (String [ ] args ){
+
+        E_Account obj = new E_Account();
+        obj.getAccountholder();
+        obj.getGetaccountfolder();
+        obj.setAccountholder("Ruturaj ");
+        obj.setGetaccountfolder(5202563);
+
+    }
 }
