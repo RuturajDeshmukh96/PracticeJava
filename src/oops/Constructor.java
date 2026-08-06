@@ -9,7 +9,7 @@ int b;
         this.a = a;
         this.b=b;
         System.out.println(a+b);
-        System.out.println("this is the constructor example");
+        System.out.println("This is the constructor example");
         }
         public void hello(){
         System.out.println("original hello");
@@ -18,7 +18,7 @@ int b;
    interface Magic {
      void menu();
      default void maya(){
-         System.out.println("this is diffault method from interface ");
+         System.out.println("this is difault method from interface ");
          maya1();
 
      }
