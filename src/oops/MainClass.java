@@ -10,7 +10,7 @@ public class MainClass {
         this.b = b;
         this.yz = yz;
         System.out.println(a + " " + b + " " + yz);
-        System.out.println("This is from the Constructor ");
+        System.out.println("This is from the  Constructor ");
     }
 }
 
