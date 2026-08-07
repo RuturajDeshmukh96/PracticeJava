@@ -28,7 +28,8 @@ public class Encapsulation2 {
     }
 
     public static void main (String [] args ){
-        Encapsulation2 p1 = new Encapsulation2 ("rutu0", 78);
+        Encapsulation2 p1 = new Encapsulation2 ("rutu0" +
+                "", 78);
         System.out.println("Name is: " + p1.getName());
         System.out.println("Roll is: " + p1.getRoll());    }
 }
