@@ -23,9 +23,12 @@ public class set1 {
 public static void main (String [] args ){
         set1 info = new set1("rutu",0) ;
 
-        info.setdetails();
 
     System.out.println("the name is  "+info.getname());
     System.out.println("the score is  "+info.getscore());
+
+    info.setdetails();
+    System.out.println("the name is :-  "+info.getname());
+    System.out.println("the score is :-  "+info.getscore());
 }
 }
