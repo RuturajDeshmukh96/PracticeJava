@@ -1,15 +1,12 @@
     package oops;
-
     public class PlayerProfile {
         private String username;
         private int health1;
-
         public PlayerProfile(String username, int  health) {
-            this.username = "Ruturaj " ;
+            this.username = username ;
             this.health1 = 100 ;
             System.out.println("New player name is " + username);
         }
-
         public String getusername (){
             return username;
         }
@@ -27,12 +24,12 @@
         public void heal(int potion){
             health1 = health1 + potion ;
             if ( health1 > 100 ){
+                health1 = 100 ;
                 System.out.println(" The Playeer health is full..1");
             }else {
                 System.out.println(" Medicine Nedded ");
             }
         }
-
         public static void main (String [] args ){
             PlayerProfile Gamer = new PlayerProfile("Ruturaj...",100);
            System.out.println("Starting health " + Gamer.gethealth1());
