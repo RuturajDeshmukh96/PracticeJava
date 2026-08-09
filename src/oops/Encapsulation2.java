@@ -24,7 +24,7 @@ public class Encapsulation2 {
     public Encapsulation2 (String name , int roll ) {
         this.name = name ;
         this.roll= roll;
-        System.out.println("This is from constructor");
+        System.out.println("This is from the constructor");
     }
 
     public static void main (String [] args ){
