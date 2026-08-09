@@ -33,7 +33,7 @@ public class Encpaul {
 
         Encpaul E = new Encpaul("Ruturaj", 244390);
 
-        System.out.println("Name: " + E.getAccountHolder());
-        System.out.println("ID: " + E.getAccountId());
+        System.out.println("Name:" + E.getAccountHolder());
+        System.out.println("ID: "+ E.getAccountId());
     }
 }
