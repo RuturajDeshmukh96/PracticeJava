@@ -27,7 +27,7 @@ public class CopyC {
 }
 class Root {
     public static void main (String [] args ){
-        CopyC c =  new CopyC ("supraa","turbo v6 ","Toyota");
+        CopyC c =  new CopyC ("supraa","  turbo v6 ","Toyota");
         CopyC d = new CopyC(c);
         System.out.println("Start ");
         c.show();
