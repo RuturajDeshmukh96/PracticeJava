@@ -15,7 +15,7 @@ public class CC1 {
                         this.colour= Newones.colour ;
         }
         public  void show (){
-        System.out.println ( "model no is : " + model + " the engine is : " + engiene + " clouer is a : "+ colour);
+        System.out.println ( "model no is : " + model + " the engine is : " + engiene + " colour  is a : "+ colour);
         }
         public void chage (){
         colour = colour = " Black  " ;
@@ -26,13 +26,13 @@ class Run01 {
         CC1 r1  = new  CC1("Supraa","turbo v6 ","Red");
         CC1 r2 = new CC1  (r1);
         System.out.println("start ");
-        r1.show();
+       // r1.show();
         r2.show();
         System.out.println("change");
         r1.chage();
-        r2.show();
+        r1.show();
         System.out.println("Final");
         r1.show();
-        r2.show();
+       // r2.show();
     }
 }
