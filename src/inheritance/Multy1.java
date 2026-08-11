@@ -19,7 +19,7 @@ interface Two3 {
 class Boom implements One3 , Two3 {
     @Override
     public void one (){
-        System.out.println("this is the  overloaidng the  parent 1 & 2 ");
+        System.out.println("this is the  overridng the  parent 1 & 2 ");
     }
     public static void main(String [] args ){
         Boom b =  new  Boom ();
