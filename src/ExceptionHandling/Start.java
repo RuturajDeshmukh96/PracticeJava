@@ -9,6 +9,7 @@ public class Start {
 
         } catch (Exception e) {
             System.out.println(" the err is in the  code ");
+            System.out.println(e);
 
         }
     }
