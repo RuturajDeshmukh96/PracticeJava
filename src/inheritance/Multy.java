@@ -11,7 +11,7 @@ interface Two {
 class Three implements One , Two {
     @Override
     public void main1 (){
-        System. out .println("this is printing the multiple inheritance");
+        System. out .println("this is printing the multiple Inheritance");
     }
 public static void main(String [] args ){
         Three o = new Three ();
