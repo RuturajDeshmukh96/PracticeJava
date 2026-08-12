@@ -7,12 +7,12 @@ public class Heirachy {
 }
 class One2 extends Heirachy{
     public void one () {
-        System.out .println("this is the frist child of heirachy");
+        System.out .println("this is the frist child of Heirachy");
     }
 }
 class Two2 extends Heirachy{
     public void two ( ) {
-        System.out.println("the 2nd child if heirachy ");
+        System.out.println("the 2nd child if Heirachy ");
     }
     public static void main (String [] args ){
         One2 p1 = new One2 () ;
