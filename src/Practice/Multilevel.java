@@ -7,7 +7,7 @@ public class Multilevel {
 }
 class One extends Multilevel {
     public void one1 () {
-        System.out.println("this is the 1 st child ");
+        System.out.println("this is the 1st child ");
     }
 }
 class Two extends One {
