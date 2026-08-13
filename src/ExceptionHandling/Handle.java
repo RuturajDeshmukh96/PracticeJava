@@ -12,7 +12,7 @@ public class Handle {
             System.out.println(e);
         }
         finally {
-            System.out.println("this is the finally block and always run ");
+            System.out.println("this is the finally block and always run : ");
         }
     }
 }
