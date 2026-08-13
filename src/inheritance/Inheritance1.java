@@ -10,7 +10,7 @@ class Dog extends Inheritance1 {
 //        System.out.println("the dog is barking ");
 //    }
     public void Bark (){
-        System.out.println("the dog is barking noow ");
+        System.out.println("the dog is barking now ");
     }
     public static void main(String [] args ){
         Dog p1 = new Dog ();
