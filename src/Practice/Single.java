@@ -7,7 +7,7 @@ public class Single {
 }
 class Done extends Single {
     public void Deo(){
-    System.out.println(" child 1 ");
+    System.out.println(" the  child 1 ");
 }
 public static void main(String [] arsg ){
         Done p1 = new Done() ;
