@@ -2,7 +2,7 @@ package inheritance;
 
 public class India {
     public void run () {
-        System.out.println("This is the main Class");
+        System.out.println("This is the example of the Multilevel Inheritance ");
         System.out.println("I am from India ");
     }
 }
