@@ -38,7 +38,6 @@ class Done extends Multiple1 implements Run ,Run1 {
         System.out.println("Overridding the coin method");
 
         run();
-
     }
     @Override
     public void coin2 () {
