@@ -45,16 +45,21 @@ public class FInaal1 {
         }
     }
 }
-
+interface Duck {
+    void duck ();
+    default void duck1 () {
+        System.out.println("This is interface 1");
+    }
+}
 
 interface Chick {
     void chicks ();
     default void  chicks1 () {
-        System.out.println("This is the interface");
+        System.out.println("This is the interface 2");
     }
 }
 
-    class Dove extends FInaal1 implements Chick {
+    class Dove extends FInaal1 implements Chick,Duck {
         public int score ;
         public Dove (String name , int age,int score  ) {
             super(name ,age);
@@ -68,6 +73,8 @@ interface Chick {
             Dove f1 = new Dove("Ruturaj", 22,96);
              f1.chicks();
              f1.chicks1();
+            f1.duck();
+            f1.duck1 ();
             System.out.println("The Name is is : " +f1.getname());
          System.out.println("The Age is : " +f1.getage());
             System.out.println("The Score is : " + f1. score );
@@ -77,6 +84,11 @@ interface Chick {
         @Override
         public void chicks (){
             System.out.println("absstract overroddding ");
+
+        }
+        @Override
+        public void duck() {
+            System.out.println("Thiss is  override from the interface 1  ");
 
         }
     }
