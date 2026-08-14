@@ -36,9 +36,8 @@ class Done implements Run ,Run1  {
     public void coin () {
         System.out.println("Overridding the coin method");
     }
-
     @Override
     public void coin2 () {
-        System.out.println("Overridding the coin2 method ");
+        System.out.println("Overridding the coin2 method   ");
     }
 }
