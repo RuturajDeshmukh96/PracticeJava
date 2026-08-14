@@ -17,14 +17,15 @@ interface Run1 {
         System.out.println("This is the second Interface (Parent_2)");
     }
 }
-class Done implements Run ,Run1  {
+class Done extends Multiple1 implements Run ,Run1 {
     public void coin4 (){
         System.out.println("This is the Child class");
     }
     public static void main(String [] args ){
-        Multiple1 m1 = new Multiple1();
-        m1.run();
+       // Multiple1 m1 = new Multiple1();
+
         Done d1 = new Done  ();
+        d1.run();
         d1.coin1();
         d1.coin3();
         d1.coin4();
@@ -35,6 +36,9 @@ class Done implements Run ,Run1  {
     @Override
     public void coin () {
         System.out.println("Overridding the coin method");
+
+        run();
+
     }
     @Override
     public void coin2 () {
