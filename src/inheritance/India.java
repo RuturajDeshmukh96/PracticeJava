@@ -1,19 +1,19 @@
-package ExceptionHandling;
+package inheritance;
 
 public class India {
     public void run () {
         System.out.println("This is the main Class");
-        System.out.println("i am from India ");
+        System.out.println("I am from India ");
     }
 }
 class Maharashtra extends India {
     public void run1 (){
-        System.out.println("i am from Maharashtra ");
+        System.out.println("I am from Maharashtra ");
     }
 }
 class Pune extends Maharashtra {
     public void run2 () {
-        System.out.println("i am living in the pune city ");
+        System.out.println("I am living in the Pune city ");
     }
     public static void main (String [] arg ){
         Pune p1 = new Pune();
