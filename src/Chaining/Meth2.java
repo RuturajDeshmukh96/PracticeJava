@@ -19,7 +19,7 @@ public class Meth2 {
     }
     public Meth2 m4 (boolean pass) {
         System.out.println("Fourth method of the class - pass or fail : "+ pass);
-        if (pass = true ){
+        if (pass){
             System.out.println("Pass");
         }  else {
                 System.out.println("fail");
