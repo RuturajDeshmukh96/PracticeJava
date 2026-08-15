@@ -23,7 +23,12 @@ public class FInaal1 {
         this.age = age;
 
     }
+    int age1 = 15 ;
+    String name1 = "rock ";
+    public  void loading (int age1 ){
+        System.out.println(age1);
 
+    }
     public String getname() {
         return name;
     }
@@ -66,6 +71,7 @@ interface Chick {
             this.score = score ;
 
         }
+
         public static void main(String[] args) {
             Done();
             Add();
@@ -75,6 +81,7 @@ interface Chick {
              f1.chicks1();
             f1.duck();
             f1.duck1 ();
+          //  f1.loading ();
             System.out.println("The Name is is : " +f1.getname());
          System.out.println("The Age is : " +f1.getage());
             System.out.println("The Score is : " + f1. score );
