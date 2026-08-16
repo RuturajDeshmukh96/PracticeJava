@@ -2,21 +2,18 @@ package ACCESS_MODIFIERS1;
 
 public class ACCESS_MODIFIERS {
 
+    private String carname;
 
-    private String name ;
-    public void car (String name ){
-        //this. name = "Supraaaaaaaa" ;
+    public void  setcarname(String name ) {
+        this.carname = name;
     }
-    public void getname (){
-        System.out.println("car name : " + name );
+    public  String getCarname () {
+        return carname;
     }
-    public void setname () {
-        this.name = "supraa";
-    }
-    public static void  main (String [] args ){
-        ACCESS_MODIFIERS a = new ACCESS_MODIFIERS();
 
-        a.setname();
-        a.getname();
+    public static void main(String [] arg ){
+        ACCESS_MODIFIERS s = new ACCESS_MODIFIERS();
+        s.setcarname("supraaa");
+        System.out.println(s.getCarname());
     }
 }
