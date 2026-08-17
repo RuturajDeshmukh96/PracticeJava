@@ -13,7 +13,7 @@ public class ACCESS_MODIFIERS {
 
     public static void main(String [] arg ){
         ACCESS_MODIFIERS s = new ACCESS_MODIFIERS();
-        s.setcarname("supraaa");
+        s.setcarname("Supraaa");
         System.out.println(s.getCarname());
     }
 }
