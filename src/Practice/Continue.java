@@ -4,7 +4,7 @@ public class Continue {
 
     public static void main(String[] args) {
 
-        int i = 10;
+        int i = 20;
         do {
                 System.out.println(i);
                 i++;
