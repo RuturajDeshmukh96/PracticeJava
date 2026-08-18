@@ -20,8 +20,10 @@ public class TV {
         Oldtv o = new Smartv() ;
         o.on();
         o.old();
-       Oldtv s = new Oldtv() ;
-        ((Smartv) s ) .smart ();
+        ((Smartv) o ) .smart ();
+        ((Oldtv ) o ). on ();
+    //   Oldtv s = new Oldtv() ;
+
 
     }
 
