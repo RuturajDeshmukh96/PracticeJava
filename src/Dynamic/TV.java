@@ -19,11 +19,9 @@ public class TV {
     public static void main (String [] arg ){
         Oldtv o = new Smartv() ;
         o.on();
-       o.smart ();
         o.old();
        Oldtv s = new Oldtv() ;
-        (( Oldtv )s).on();
-
+        ((Smartv) s ) .smart ();
 
     }
 
