@@ -22,6 +22,7 @@ class Hash2 {
         info.put(102, h1);
         info.put(103, h2);
         info.put(104, h3);
+        info.put(104,new Hash1 ("Raju12,",33));
 
         for (int  data : info.keySet()){
 
