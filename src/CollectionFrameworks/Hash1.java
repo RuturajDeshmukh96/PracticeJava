@@ -7,7 +7,7 @@ public class Hash1 {
     public  Hash1 (String name , int roll ) {
         this.name = name ;
         this.roll = roll ;
-        System.out.println("The name is : " + name + "The age is : " + roll );
+        System.out.println("The Name is : " + name + "The Age is : " + roll );
     }
 }
 class Hash2 {
