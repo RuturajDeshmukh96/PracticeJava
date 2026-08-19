@@ -15,7 +15,7 @@ class CricketTeam {
         players.add("Four");
         players.add("Five");
         System.out.println(players);
-        players.remove("Five");
+        players.remove(1);
         System.out.println(players.size());
          for (String p : players ){
              System.out.println(p);
