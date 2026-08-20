@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Array3 {
     String name ;
+
     public Array3 (String name ){
         this.name = name ;
-        System.out.println("This is Printing the Name ");
     }
 }
 class Done1 {
@@ -18,6 +18,7 @@ class Done1 {
         Array3 a3 = new Array3("raj");
         Array3 a4 = new Array3("Rajendra");
 
+        System.out.println("This is Printing the Name ");
 
 
         go.add(a1);
@@ -27,7 +28,7 @@ class Done1 {
 
 
         for (Array3  p : go){
-            System.out.println(p);
+            System.out.println(p.name);
 
         }
 
