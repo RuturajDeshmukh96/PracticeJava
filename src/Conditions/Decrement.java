@@ -13,7 +13,7 @@ public class Decrement {
 }
 */
 
-        for (int a = 50; a >= 45; a--) {
+        for (int a = 47; a >= 45; a--) {
             System.out.println(a);
         }
     }
