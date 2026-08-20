@@ -18,7 +18,7 @@ class Done1 {
         Array3 a3 = new Array3("raj");
         Array3 a4 = new Array3("Rajendra");
 
-        for (String  p : go){
+        for (Array3  p : go){
             System.out.println(p);
 
         }
