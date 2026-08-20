@@ -18,6 +18,14 @@ class Done1 {
         Array3 a3 = new Array3("raj");
         Array3 a4 = new Array3("Rajendra");
 
+
+
+        go.add(a1);
+        go.add(a2);
+        go.add(a3);
+        go.add(a4);
+
+
         for (Array3  p : go){
             System.out.println(p);
 
