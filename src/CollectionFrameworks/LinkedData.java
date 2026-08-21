@@ -16,12 +16,14 @@ class Link {
          LinkedData d2= new LinkedData("Rutu2");
          LinkedData d3 = new LinkedData("Rutu3");
          LinkedData d4 = new LinkedData("Rutu4");
-
-         L.add(d);
+        LinkedData  d10 = new LinkedData("Rutu10");
+        //L.add(3,d10);
+        L.add(d);
          L.add(d1);
          L.add(d2);
          L.add(d3);
          L.add(d4);
+        L.add(3,d10);
 
         L.removeLast();
         L.addFirst(new LinkedData  ("Ram"));
