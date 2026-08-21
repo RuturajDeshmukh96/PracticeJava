@@ -1,10 +1,25 @@
 package CollectionFrameworks;
 import java.util.HashSet;
+import java.util.Objects;
+
 public class HashSett {
     String name ;
     public HashSett (String  name ){
         this.name =  name ;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        HashSett hashSett = (HashSett) o;
+        return Objects.equals(name, hashSett.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(name);
+    }
+
     public static void main (String [] args ){
 
         HashSet<HashSett> done = new HashSet<>();
