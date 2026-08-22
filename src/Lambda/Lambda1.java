@@ -1,7 +1,5 @@
 package Lambda;
 
-
-
 interface Mdo {
     int calcy (int p, int q);
 }
