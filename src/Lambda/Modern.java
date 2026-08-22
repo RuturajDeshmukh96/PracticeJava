@@ -1,10 +1,10 @@
 package Lambda;
-import java.util.ArrayList;
+import java.util.TreeSet;
 import java.util.List;
 import java.util.stream.Collector;
 public class Modern {
     public static void main (String [] args){
-        ArrayList<Integer> marklist  = new ArrayList<>();
+        TreeSet<Integer> marklist  = new TreeSet<>();
         marklist.add(45);
         marklist.add(22);
          marklist.add(86);
