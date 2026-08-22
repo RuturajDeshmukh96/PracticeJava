@@ -1,18 +1,20 @@
 package Lambda;
-import java.util.TreeSet;
-import java.util.List;
-import java.util.stream.Collector;
-public class Modern {
-    public static void main (String [] args){
-        TreeSet<Integer> marklist  = new TreeSet<>();
-        marklist.add(45);
-        marklist.add(22);
-         marklist.add(86);
-        marklist.add(55);
 
-System.out.println(marklist);
+interface Cal {
+    int calculation (int a  , int b );
+}
 
+public class Modern{
+public static void main (String [] args ){
 
-    }
+    Cal  addition = (a ,b) ->  a+b;
+    Cal Multiplication = (a,b) -> a *b ;
 
+int x = 10 ;
+int y = 20 ;
+
+int  add = addition.calculation(x,y);
+System.out.println(add);
+
+}
 }
