@@ -16,5 +16,8 @@ int y = 20 ;
 int  add = addition.calculation(x,y);
 System.out.println(add);
 
+int mul = Multiplication.calculation(x,y);
+System.out.println(mul);
+
 }
 }
