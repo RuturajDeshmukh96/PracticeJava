@@ -14,6 +14,7 @@ public class Lambda {
         int x = 10;
         int y = 100;
 
+
         int  result  = addition.calculation(x,y);
         System.out.println(result);
           int  result1  = multi.calculation(x,y);
