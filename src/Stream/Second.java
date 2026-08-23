@@ -24,3 +24,7 @@ public static void main (String [] args ){
 
 
 }
+// what i learn
+// filter - It is used to filter elements based on a given condition
+// map - It works on the elements and applies a given operation or calculation to transform them.
+// to list - It collects the final processed data and stores it into a new
