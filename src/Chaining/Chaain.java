@@ -6,7 +6,7 @@ public class Chaain {
     float  score ;
     public Chaain (){
         this ("Ruturaj ",89.00f , 22);
-        System.out.println("thiss is printing from the default constructor  : " );
+        System.out.println("Thiss is printing from the default constructor  : " );
     }
 
     public Chaain (String name, float  score , int age ){
