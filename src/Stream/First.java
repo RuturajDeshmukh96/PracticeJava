@@ -19,6 +19,6 @@ public static void main(String [ ] arg ) {
 }
 // what i learn ?
 // to list  is used to collect the final  processed data into a new List.
-// the distinct () finction is used to the remove duplu from the list
+// the distinct () function is used to the remove duplu from the list
 // the sorted () is used to the sortt the list
 // in the filter we prform opration using the lambda
