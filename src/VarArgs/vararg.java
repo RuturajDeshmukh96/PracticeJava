@@ -3,7 +3,7 @@ package VarArgs;
 public class vararg {
 
     public static void Rub(int...price ) {
-        System.out.println("this is printing the vararg example ");
+        System.out.println("This is printing the vararg example ");
 
         int total = 0;
 
