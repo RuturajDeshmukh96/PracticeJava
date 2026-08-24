@@ -19,8 +19,6 @@ class Data1 {
         Data d3 = new Data("Rohit");
         Data d4 = new Data("Ronaldo");
 
-
-
         data.addFirst(new Data("dj"));
         data.removeLast();
         for (Data d : data){
