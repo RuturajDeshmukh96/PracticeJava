@@ -1,12 +1,13 @@
 package CollectionFrameworks;
 
+//import java.sql.SQLOutput;
 import java.util.TreeSet;
 
 public class Tree1 {
 int name ;
     public Tree1(int  name ){
         this.name = name ;
-
+        System.out.println("This  is  the  end ");
     }
 }
 class Tree2 {
