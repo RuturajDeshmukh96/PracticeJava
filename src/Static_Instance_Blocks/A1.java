@@ -1,9 +1,16 @@
 package Static_Instance_Blocks;
 
 public class A1 {
-    {
-        System.out.println("this  is  the end ");
+
+        static {
+            show();
+        }
+
+        static void show() {
+            System.out.println("Hello from static method");
+        }
+
+        public static void main(String[] args) {
+
+        }
     }
-
-
-}

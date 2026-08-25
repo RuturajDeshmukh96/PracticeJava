@@ -22,7 +22,7 @@ class db  {
 
       Hash_student s1 = new Hash_student   ( "Rutu",26,89.0f);
       Hash_student s2 = new Hash_student   ( "Rajesh",26,89.0f);
-      Hash_student s3 = new Hash_student   ( "Nagesh",26,89.0f);
+      Hash_student s3 = new Hash_student   ( "Nagu",26,89.0f);
 
         studinfo.put(101,s1);
         studinfo.put(102,s2);
