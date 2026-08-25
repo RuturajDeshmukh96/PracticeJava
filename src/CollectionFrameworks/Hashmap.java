@@ -10,7 +10,7 @@ public class Hashmap {
         stud.put(4,"dj");
         stud.get(2);
         stud.remove(4);
-        System.out.println("This is the printing the stud hashmap\n" + stud );
+        System.out.println("This  is the printing the stud hashmap \n" + stud );
 
     }
 }
