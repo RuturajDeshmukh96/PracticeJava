@@ -24,7 +24,7 @@ public class Chaain1 {
     public static void main (String [] args ){
         Chaain1 c = new Chaain1 ();
         c.m1("Ruturaj").m2(22).m3(89.00f).m4("pass");
-        System.out.println("The method chaining is running smoothly ");
+        System.out.println("The Method Chaining is running smoothly ");
     }
 }
 
