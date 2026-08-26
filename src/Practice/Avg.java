@@ -11,7 +11,7 @@ public class Avg {
 
 
     }
-        System.out.println("The addition of this array is a "  + sum);
+        System.out.println("The Addition of this array is a "  + sum);
      System.out.println("The average of this array is a "+ sum/score.length);
 
     }
