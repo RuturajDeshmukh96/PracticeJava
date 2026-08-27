@@ -3,7 +3,7 @@ package Dynamic;
  class Dynamic1 {
 
     public void one() {
-        System.out.println("One");
+        System.out.println("One ");
     }
 
     public void two() {
