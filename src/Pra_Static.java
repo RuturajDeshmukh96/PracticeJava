@@ -19,7 +19,7 @@ class Done {
         System.out.println(name );
 
         System.out.println(age );
-        System.out.println(count);
+        //System.out.println(count);
     }
 
     static void main(String [] srgd ) {
