@@ -17,7 +17,7 @@ class Done {
         this . age = age ;
         count++;
         System.out.println(name );
-             //   ""+age  );
+
         System.out.println(age );
         System.out.println(count);
     }
