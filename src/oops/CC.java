@@ -17,7 +17,6 @@ public class CC {
     public void reduce (int reduceage){
         age =  age  - reduceage ;
     }
-
 }
 class Run4 {
     public static void  main (String []args ){
