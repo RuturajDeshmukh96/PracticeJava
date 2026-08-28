@@ -17,11 +17,9 @@ class Done {
         this . age = age ;
         count++;
         System.out.println(name );
-
         System.out.println(age );
-        //System.out.println(count);
+        System.out.println(count);
     }
-
     static void main(String [] srgd ) {
         Pra_Static p = new Pra_Static();
         Done d = new Done("Ruturaj", 14);
