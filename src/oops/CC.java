@@ -1,5 +1,4 @@
 package oops;
-
 public class CC {
     String name;
     int age  ;
