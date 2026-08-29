@@ -19,7 +19,7 @@ class Final implements One1 , Two2{
 
     @Override
     public void Two1 () {
-        System.out.println("this is also overridding ");
+        System.out.println("this is also  overridding ");
     }
     public static void main(String [] args ){
         Final f1 = new Final();

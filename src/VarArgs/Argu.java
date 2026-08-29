@@ -11,7 +11,6 @@ public class Argu {
             total = total + d;
         }
         System.out.println(runs.length);
-
         System.out.println(total);
     }
     public static void main(String[] args) {
