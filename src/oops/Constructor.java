@@ -9,10 +9,10 @@ int b;
         this.a = a;
         this.b=b;
         System.out.println(a+b);
-        System.out.println("This is the constructor example");
+        System.out.println(" This is the constructor example");
         }
         public void hello(){
-        System.out.println("original hello");
+        System.out.println(" original hello");
         }
     }
    interface Magic {
