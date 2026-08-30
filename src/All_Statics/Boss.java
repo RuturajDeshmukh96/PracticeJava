@@ -5,12 +5,10 @@ public class Boss {
     static String  Run= "Ruturaj deshmukh";
 
 
-    public static int Fast(int a , int b ){
-        System.out.println("static method with the parameter "+(a+b));
-        return a+b ;
+    public static int Fast(int a , int b ) {
+        System.out.println("static method with the parameter " + (a + b));
+        return a + b;
     }
-
-
 
     public static void main(String [] raj){
 
@@ -18,12 +16,6 @@ public class Boss {
         for (String jdk: raj ){
             System.out.println(jdk);
         }
-
-
-
-
-
-
 
         System.out.println("this is printing the static main method");
 
