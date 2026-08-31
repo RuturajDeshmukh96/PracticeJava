@@ -2,6 +2,7 @@ package Practice;
 import java .util.*;
 public class Swtch {
     static void main() {
+        System.out.println("Enter the number for testing ");
         Scanner sc  =  new Scanner(System.in);
         int but = sc .nextInt();
         switch (but){
