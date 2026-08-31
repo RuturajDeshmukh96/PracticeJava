@@ -15,7 +15,7 @@ public class Swtch {
                 System.out.println("three");
                 break;
             default:
-                System.out.println("enter valid no : ");
+                System.out.println("enter the valid no : ");
         }
     }
 }
