@@ -7,7 +7,7 @@ public class Whi {
         while (a >10){
             System.out.println("a greater  than 10");
             //System.out.println(a);
-            a--;
+              a--;
             break;
         }
         }
