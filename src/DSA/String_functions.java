@@ -10,5 +10,9 @@ public class String_functions {
         System.out.println(Lname);
         System.out.println(Fname);
         System.out.println(Lname + " " + name);
+        System.out.println(Fname.length());
+        for (int i = 0 ; i < Fname.length() ; i++ ){
+            System.out.println(Fname.charAt(i));
+        }
     }
 }
