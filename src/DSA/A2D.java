@@ -15,7 +15,7 @@ public class A2D {
                Ar2[i][j] = sc.nextInt();
            }
        }
-           for (int i = 0 ; i < rows; i ++) {
+           for (int i = 0 ; i < rows; i ++) { 
                for (int j = 0 ; j < col; j++ ){
                    System.out.print(Ar2 [i] [j] + " ");
                }
