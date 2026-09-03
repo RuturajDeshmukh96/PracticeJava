@@ -1,0 +1,13 @@
+package DSA;
+
+public class Compare_String {
+    public static void main (String [] args){
+        String  name1 = "Rutu";
+        String name2 = "Ruturaj";
+        if (name1.compareTo(name2)==0){
+            System.out.println("Both Strings are same ");
+        }else {
+            System.out.println("both strings are not same ");
+        }
+    }
+}
