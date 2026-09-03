@@ -2,17 +2,17 @@ package DSA;
 import java.util.*;
 
 public class String_functions {
-  static   String name = "tony";
-    static String Lname = "Stark";
-    static String Fname = name + Lname ;
-    public  static void main(String [] args) {
-        System.out.println(name);
-        System.out.println(Lname);
-        System.out.println(Fname);
-        System.out.println(Lname + " " + name);
-        System.out.println(Fname.length());
-        for (int i = 0 ; i < Fname.length() ; i++ ){
-            System.out.println(Fname.charAt(i));
-        }
-    }
+ public static void main (String [] args){
+     String name = "Rohit ";
+     String lname = "Sharma";
+     String fname = name + lname ;
+     System.out.println(name);
+     System.out.println(lname );
+     System.out.println(fname);
+     System.out.println(name + " " + lname );
+
+     for (int i = 0 ; i < fname.length() ;i ++){
+         System.out.println(fname.charAt(i));
+     }
+ }
 }
