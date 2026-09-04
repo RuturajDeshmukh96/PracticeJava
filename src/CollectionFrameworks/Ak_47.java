@@ -6,7 +6,6 @@ public class Ak_47 {
         this.name = name;
         System.out.println("Arrays");
     }
-
 }
 class Run {
     public static void main(String[] args) {
@@ -21,6 +20,5 @@ class Run {
         for (Ak_47 d  : go){
             System.out.println(d.name);
         }
-
     }
 }
