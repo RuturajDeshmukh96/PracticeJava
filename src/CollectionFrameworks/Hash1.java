@@ -28,8 +28,6 @@ class Hash2 {
 
             System.out.println(data);
 
-
-
         }
 
     }
