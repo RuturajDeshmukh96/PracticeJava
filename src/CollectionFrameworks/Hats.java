@@ -26,6 +26,16 @@ class Dec {
         Stud.put(101, h);
         Stud.put(102, h1);
         Stud.put(103, h3);
+       //  Stud.remove()
+
+
+        Stud.putIfAbsent(104 , new Hats("Parade", 44,96f));
+        Stud.replace(102,new Hats("Avinash",12,90.0f));
+
+
+
+
+
         for (Integer i : Stud.keySet()) {
             System.out.println(i);
 
