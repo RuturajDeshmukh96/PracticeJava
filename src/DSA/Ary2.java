@@ -27,7 +27,7 @@ class Art{
         for (Integer k : Dove.keySet()){
             System.out.println(k);
             Ary2 a = Dove.get(k);
-            k.show();
+            a.show();
         }
 
 
