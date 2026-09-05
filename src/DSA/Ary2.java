@@ -9,7 +9,7 @@ public class Ary2 {
 
     }
     public void show() {
-        System.out.println("age : " + age + "name : " + name );
+        System.out.println(" | age :  " + age + " | name :  " +  name +"   |" );
     }
 }
 class Art{
