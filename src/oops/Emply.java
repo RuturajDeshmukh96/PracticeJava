@@ -14,7 +14,7 @@ public abstract  class Emply {
     }
 
     public void getName () {
-         this.Name ;
+          this.Name ;
     }
     public void setId (int Id){
         this.Id = Id ;
