@@ -43,7 +43,7 @@ public abstract class Media {
         @Override
         public void play() {
             // Output uses the getters from the parent class
-            System.out.println("Now watching: " + getTitle() + " directed by " + " (Length: " + Getduration () + " mins)");
+            System.out.println("Now watching: " + getTitle() + " directed by " + " (Length: " + getDuration () + " mins)");
         }
     }
 
