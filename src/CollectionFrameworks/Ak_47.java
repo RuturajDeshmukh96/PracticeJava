@@ -11,7 +11,7 @@ class Run {
     public static void main(String[] args) {
 
         ArrayList<Ak_47> go = new ArrayList<>();
-        Ak_47 a = new Ak_47("rutu");
+        Ak_47 a = new Ak_47(" rutu");
         Ak_47 a2 = new Ak_47("raj");
 
         go.add(a);
