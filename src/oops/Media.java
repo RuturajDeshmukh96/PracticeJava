@@ -7,25 +7,25 @@ public abstract class Media {
     private String title;
     private int duration;
 
- public Media (String title, int duration) {
-     this.duration = duration;
-     this.title = title;
- }
+    public Media(String title, int duration) {
+        this.duration = duration;
+        this.title = title;
+    }
 
-    public String getTitle()
-    { return this.title; }
+    public String getTitle() {
+        return this.title;
+    }
 
     public void Gettitle(String title) {
         return;
     }
 
-    public void settitle(int duration) {
-
-        System.out.println(14);
+    public int getDuration() {
+        return this.duration; // Correctly hands back the number
     }
 
-    public void Getduration (int duration) {
-        return;
+    public void setDuration(int duration) {
+        this.duration = duration; // Correctly saves the new number
     }
 
     public abstract void play();
@@ -36,6 +36,7 @@ public abstract class Media {
 
         public Movie(String direct, String title, int duration) {
             super(title, duration);
+            this.direct= direct ;
             System.out.println("now Watchining " + title + "--" + duration);
         }
 
@@ -46,32 +47,28 @@ public abstract class Media {
         }
     }
 
-        class song extends Media {
+    class song extends Media {
             private String artist;
 
-            public song(String artist, String title, String duration) {
+            public song(String artist, String title, int  duration) {
                 super(title, duration);
+                this.artist =  artist;
                 System.out.println("now listing " + title + "--" + duration);
             }
 
             @Override
             public void play () {
                     System.out.println("done");
-
-
-
             }
 
         }
-    }
 
     class StreamingApp {
         public static void main(String[] args) {
 
-
             List<Media> playlist = new ArrayList<>();
             Media m1 = new Movie("Inception", "Christo", 45);
-            Media m2 = new Song(" Bohemian Rhapsody", 6, "Queen");
+            Media m2 = new song(" Bohemian Rhapsody", "Queen",6 );
 
             playlist.add(m1);
             playlist.add(m2);
