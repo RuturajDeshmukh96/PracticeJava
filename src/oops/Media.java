@@ -71,7 +71,7 @@ public abstract class Media {
 
             List<Media> playlist = new ArrayList<>();
             Media m1 = new Movie("Inception", "Christo", 45);
-            Media m2 = new Song("Bohemian Rhapsody", 6, "Queen");
+            Media m2 = new Song(" Bohemian Rhapsody", 6, "Queen");
 
             playlist.add(m1);
             playlist.add(m2);
