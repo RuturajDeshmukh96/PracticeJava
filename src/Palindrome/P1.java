@@ -16,8 +16,6 @@ public class P1 {
     }
     System.out.println("printing original number" + original);
     System.out.println("printing reverse number "+reverse);
-
-
     if (reverse == original ) {
         System.out.println("this is the palindrome number ");
     }else{
