@@ -13,7 +13,7 @@ public class Ex1 {
         Fast(n-1 );
     }
     public static void main (String [] args ) {
-        System.out.println("lets start countdown ");
+        System.out.println("  lets start countdown ");
         Fast(10);
     }
 }
