@@ -17,8 +17,8 @@ public class M_O {
 
        int a= M_O.run(22,33,22);
         System.out.println(a);
-
-
+    int b = M_O.run(12,34);
+         System.out.println(b);
 
     }
 
