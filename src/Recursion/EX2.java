@@ -27,9 +27,9 @@ public class EX2 {
         boolean result = isSorted(arr, 0);
 
         if (result) {
-            System.out.println("Array is sorted ");
+            System.out.println(" Array is sorted ");
         } else {
-            System.out.println("Array is not sorted ");
+            System.out.println(" Array is not sorted ");
         }
     }
 }
