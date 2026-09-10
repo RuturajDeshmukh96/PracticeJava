@@ -18,9 +18,9 @@ public class Vehicle1 {
         System.out.println("The brand name of car is : " + brand + "\nThe price of the car is : " + price + " \nThe years are : "  + year);
     }
 }
-class car extends Vehicle1 {
+class Car extends Vehicle1 {
     int noOfDoor ;
-    public car (String brand , int year , double price, int noOfDoor ){
+    public Car (String brand , int year , double price, int noOfDoor ){
         super(brand , year , price );
         this. noOfDoor = noOfDoor ;
     }
@@ -32,20 +32,20 @@ class car extends Vehicle1 {
 
 class Motorcycle extends  Vehicle1 {
     boolean hasSidecar ;
-    public Motorcycle (String brand , double price , int year , boolean hasSidecar){
+    public Motorcycle (String brand , int year , double price   , boolean hasSidecar){
         super (brand , year , price );
         this. hasSidecar  = hasSidecar;
 
 
     }
     public void displayInfo() {
-        System.out.println("The brand name of car is : " + brand + "\nThe price of the car is : " + price + " \nThe years are : "  + year + " \nIs this has sidecar : " + hasSidecar);
+        System.out.println("The brand name of car is : " + brand + "\nThe price of the Motorcycle  is : " + price + " \nThe years are : "  + year + " \nIs this has sidecar : " + hasSidecar);
     }
 
     public static void main(String[] args) {
        Vehicle1 v = new Vehicle1("Supraaa",2014,586300000.d);
-        car c = new car("Hondaa Civic ", 2026,150000.d,4);
-        Motorcycle m = new Motorcycle("Hondaa",200000.d,2025,true);
+        Car c = new Car("Hondaa Civic ", 2026,150000.d,4);
+        Motorcycle m = new Motorcycle("Hondaa",2021,210000.d,true);
 
         // System.out.println(c);
        // System.out.println(m);
