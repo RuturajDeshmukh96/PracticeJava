@@ -15,7 +15,7 @@ public class Vehicle1 {
     }
 
     public void displayInfo() {
-        System.out.println("The brand name of car is : " + brand + "\n The price of the car is : " + price + " \n the years are : "  + year);
+        System.out.println("The brand name of car is : " + brand + "\nThe price of the car is : " + price + " \nThe years are : "  + year);
     }
 }
 class car extends Vehicle1 {
@@ -26,7 +26,7 @@ class car extends Vehicle1 {
     }
 
     public void displayInfo() {
-        System.out.println("The brand name of car is : " + brand + "\n The price of the car is : " + price + " \n  the years are : "  + year + " \n The doors in car are : " + noOfDoor);
+        System.out.println("The brand name of car is : " + brand + "\nThe price of the car is : " + price + " \nThe years are : "  + year + " \nThe doors in car are : " + noOfDoor);
     }
 }
 
@@ -39,7 +39,7 @@ class Motorcycle extends  Vehicle1 {
 
     }
     public void displayInfo() {
-        System.out.println("The brand name of car is : " + brand + "\n The price of the car is : " + price + " \n the years are : "  + year + " \n Is this has sidecar : " + hasSidecar);
+        System.out.println("The brand name of car is : " + brand + "\nThe price of the car is : " + price + " \nThe years are : "  + year + " \nIs this has sidecar : " + hasSidecar);
     }
 
     public static void main(String[] args) {
@@ -49,8 +49,11 @@ class Motorcycle extends  Vehicle1 {
 
         // System.out.println(c);
        // System.out.println(m);
+        System.out.println("\n");
         v.displayInfo();
+        System.out.println("\n");
         c.displayInfo();
+        System.out.println("\n");
         m.displayInfo();
 
     }
