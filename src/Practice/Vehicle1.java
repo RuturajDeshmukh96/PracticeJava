@@ -44,7 +44,7 @@ class Motorcycle extends  Vehicle1 {
 
     public static void main(String[] args) {
        Vehicle1 v = new Vehicle1("Supraaa",2014,586300000.d);
-        Car c = new Car("Hondaa Civic ", 2026,150000.d,4);
+        Car c = new Car("Lamboo ", 2026,150000.d,4);
         Motorcycle m = new Motorcycle("Hondaa",2021,210000.d,true);
 
         // System.out.println(c);
