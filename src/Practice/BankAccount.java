@@ -12,6 +12,7 @@ public class BankAccount {
         this.accontNumber =accontNumber ;
         this. accountHolder = accountHolder ;
         this.balance = 0.0d;
+        System.out.println(accountHolder +  " ||| "+ accontNumber);
     }
 
     public String  getAccountNumber (){
@@ -46,16 +47,16 @@ public void withdrawl (double amount ) {
             balance = amount - balance ;
             System.out.println("successfullt withdrawl | Your balance is :  " + balance);
         }else if ( amount > balance ){
-            System.out.println("Invalid Ammount ");
+            System.out.println("You are entering the invalid ammount ");
         }else {
-            System.out.println("you are entering the invalid ammount ");
+            System.out.println(" invalid !!! ");
         }
 }
 public static  void main (String[] args) {
         BankAccount b1 = new BankAccount("1212","Ganesh" ) ;
 
-        b1.deposit(210000.0d);
-        b1.withdrawl(11500);
+        b1.deposit(10000.0d);
+        b1.withdrawl(100);
         b1.getBalance();
 }
 }
