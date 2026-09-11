@@ -17,9 +17,11 @@ public class BankAccount {
     public String  getAccountNumber (){
         return accontNumber ;
     }
+
     public String getAccountHolder() {
         return accountHolder;
     }
+
     public double getBalance () {
         return balance ;
     }
@@ -27,19 +29,22 @@ public class BankAccount {
     public void setAccountHolder(String accountHolder) {
         this.accountHolder = accountHolder ;
     }
-public void deposit (double amount ){
 
-        if (amount  >=  0 ){
+
+public void deposit (double amount ){
+        if (amount  <=  0 ){
+
             System.out.println("Invalid deposit Ammount  ");
         }else {
-            System.out.println("Your Ammount is Succefully deposited " + balance );
+            balance = balance + amount ;
+            System.out.println("Your Ammount is Succefully deposited  : " + balance );
     }
 
 }
 public void withdrawl (double amount ) {
         if (amount >= 0 && amount <= balance  ){
-            amount = balance - amount ;
-            System.out.println("successfullt withdrawl " + balance);
+            balance = amount - balance ;
+            System.out.println("successfullt withdrawl | Your balance is :  " + balance);
         }else if ( amount > balance ){
             System.out.println("Invalid Ammount ");
         }else {
