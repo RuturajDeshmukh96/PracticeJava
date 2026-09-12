@@ -18,7 +18,7 @@ public class Overloding2 extends Watch{
 
     public void hello(int b){
         int a = 1;
-        System.out.println("Overlosding mrthod");
+        System.out.println("Overloading method");
     }
     public static void main(String [] args ){
         Overloding2 o = new Overloding2();
