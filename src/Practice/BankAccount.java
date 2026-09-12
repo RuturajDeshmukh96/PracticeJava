@@ -12,9 +12,8 @@ public class BankAccount {
         this.accontNumber =accontNumber ;
         this. accountHolder = accountHolder ;
         this.balance = 0.0d;
-        System.out.println(accountHolder +  " ||| "+ accontNumber);
+        System.out.println(accountHolder +  " | | | "+ accontNumber);
     }
-
     public String  getAccountNumber (){
         return accontNumber ;
     }
