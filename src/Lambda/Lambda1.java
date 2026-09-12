@@ -9,7 +9,7 @@ public class Lambda1 {
         Mdo  addition = (p,q) -> (p+q);
 
         int b = 100;
-        int c = 200;
+        int c = 300;
         int r  = addition.calcy(b,c);
         System.out.println(r);
 
