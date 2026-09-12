@@ -21,7 +21,7 @@ class Overloading_demo {
             Overloading_demo pay = new Overloading_demo ();
             pay.pay(46465645646464L);
             pay.pay("4848645454");
-            pay.pay("45454545","454e6845468");
+            pay.pay("45454545","4546845468");
 
 
         }
