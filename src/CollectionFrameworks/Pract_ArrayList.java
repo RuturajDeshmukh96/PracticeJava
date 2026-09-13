@@ -13,5 +13,8 @@ public class Pract_ArrayList {
 
     done.add("go");
     done.add("One");
+    for (String p : done  ){
+        System.out.println(done);
+    }
 }
 }
