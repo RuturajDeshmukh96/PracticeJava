@@ -8,7 +8,7 @@ public class Encpaul {
     public Encpaul(String AccountHolder, int AccountId) {
         this.AccountHolder = AccountHolder;
         this.AccountId = AccountId;
-        System.out.println("Constructor for encapsulation");
+        System.out.println("This is Constructor fom Encapsul Block /class");
     }
 
 
