@@ -5,6 +5,7 @@ public class One_OOPS {
     String Colour ;
     String Type ;
     int Count ;
+
     public void One () {
         System.out.println("Lets Write Something Using PEN ");
     }
@@ -25,7 +26,7 @@ class Two_OOPS {
         pen.One();
         pen.type();
 
-   // ------------------------------------------------
+     // ------------------------------------------------
         System.out.println("------------------------------\n------------------------------");
         One_OOPS pen2 = new One_OOPS() ;
         pen2.Colour= "Black";
