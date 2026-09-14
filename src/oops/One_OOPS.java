@@ -7,7 +7,7 @@ public class One_OOPS {
     int Count ;
 
     public void One () {
-        System.out.println("Lets Write Something Using PEN ");
+            System.out.println("Lets Write Something Using PEN ");
     }
     public void type () {
         System.out.println("Type = " + this.Type);
