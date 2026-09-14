@@ -19,7 +19,7 @@ public class CopyC {
         System.out.println("model of car is : " + model + "  engine is  : " +engine  + "  company  of the car is : " + company);
     }
     public void  change (){
-        model= model = "verna ";
+        model= model = "Virtus";
         engine = engine = " turboo " ;
          company = company  = "volkswagon ";
     }
