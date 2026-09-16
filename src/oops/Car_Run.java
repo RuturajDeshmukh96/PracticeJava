@@ -29,7 +29,7 @@ class Car_Info {
         }
 
         void show() {
-            System.out.println("Name  : " + name + "\nEngine : " + Engine + "\nModel : " + model + "\nCar Id : " + carid);
+            System.out.println("\nName  : " + name + "\nEngine : " + Engine + "\nModel : " + model + "\nCar Id : " + carid);
         }
     }
 
@@ -39,7 +39,7 @@ class Car_Info {
              Car_Info s =  new Car_Info(r);
             r.show();
             r.change();
-            System.out.println("__________________________________________________\n-------------------------------------------------------------------------------------\n------------------------------------------------------------------------------");
+            System.out.println("__________________________________________________\n__________________________________________________\n__________________________________________________\n");
             r.show();
         }
     }
