@@ -13,7 +13,6 @@ public class CopyC {
         this.model = New.model;
         this.engine= New . engine ;
         this.company = New . company ;
-
     }
     public void show (){
         System.out.println("model of car is : " + model + "  engine is  : " +engine  + "  company  of the car is : " + company);
