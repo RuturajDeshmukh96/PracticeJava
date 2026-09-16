@@ -12,8 +12,21 @@ public class Cont_Copy {
        this.Modelno = Modelno ;
        this .Prize = Prize ;
    }
+   Cont_Copy (Cont_Copy S){
+       this.Devicename = S.Devicename ;
+       this.Prize = S.Prize;
+       this.Model = S.Model ;
+       this.Modelno = S.Modelno ;
+
+   }
   public void show () {
       System.out.println("\nDevice name : " + Devicename + "\nModel : " + Model + "\nModel no : " + Modelno + "\nPrizee of Product : " + Prize);
+  }
+  public void change () {
+       this.Devicename = "MacBook";
+       this.Model = "Air";
+       this.Modelno = 1221;
+       this.Prize = 2000000f;
   }
 }
 class Done {
@@ -21,6 +34,9 @@ class Done {
 
 
         Cont_Copy c1 = new Cont_Copy("Acer", "AL15", 12345, 65000f);
+        Cont_Copy c2 = new Cont_Copy(c1);
+        c1.show();
+        c1.change();
         c1.show();
     }
 }
