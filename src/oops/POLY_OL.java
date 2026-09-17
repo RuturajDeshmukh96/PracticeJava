@@ -1,12 +1,11 @@
 package oops;
 
-import java.sql.SQLOutput;
 
 public class POLY_OL {
     String name;
     int age;
     float marks;
-    String Collagename ;
+     String Collagename ;
 
     public void Print(String name) {
         System.out.println(name);
