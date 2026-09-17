@@ -42,7 +42,7 @@ public class POLY_OL {
         p1.Print(p1.marks);
         p1.Print(p1.age);
         p1.Danger(p1.Collagename);
-        p1.Danger(p1.Collagename);
+      //  p1.Danger(p1.Collagename);
 
     }
 
