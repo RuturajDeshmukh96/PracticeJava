@@ -1,15 +1,17 @@
 package _this;
 
 public class New {
-    public void gun (){
-        System.out.println("thiss is frsit ");
+
+    static void main() {
+        String original = "Nanu";
+
+        // Let's try to change it by converting it to uppercase
+        original.toUpperCase();
+
+        // It STILL prints "Nanu", not "NANU"!
+        System.out.println("Original string: " + original);
+        original = "NUNU";
+        System.out.println(original);
     }
-    public void newgun (String gun){
-        this.gun();
-        System.out.println("this is prinitng  using the this  keyword ");
     }
-    public static  void main (String [] arg ){
-     New p1 = new New() ;
-     p1.newgun("Ak ");
-    }
-}
+

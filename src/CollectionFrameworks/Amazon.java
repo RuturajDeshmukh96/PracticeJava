@@ -7,6 +7,7 @@ public class Amazon {
         shopping.add("redmi");
         shopping.add("samsung");
         shopping.add("nokia");
+
         shopping.remove("nokia");
         System.out.println(shopping.size());
         System.out.println("you ordered devices ");
