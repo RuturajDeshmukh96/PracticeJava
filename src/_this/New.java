@@ -10,7 +10,7 @@ public class New {
 
         // It STILL prints "Nanu", not "NANU"!
         System.out.println("Original string: " + original);
-        original = "NUNU";
+        original = "NANO";
         System.out.println(original);
     }
     }
