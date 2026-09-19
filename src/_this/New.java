@@ -5,7 +5,7 @@ public class New {
     static void main() {
         String original = "Nanu";
 
-        // Let's try to change it by converting it to uppercase
+
         original.toUpperCase();
 
         // It STILL prints "Nanu", not "NANU"!
