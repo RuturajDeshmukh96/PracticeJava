@@ -14,8 +14,8 @@ class Ary2 {
 
 
     ArrayList<Ary> done = new ArrayList<>();
-    Ary a = new Ary("Ruturaj");
-    Ary b = new Ary("RajRutu");
+    Ary a = new Ary("Rutu-raj");
+    Ary b = new Ary("Raj-Rutu");
 
     done.add(a);
     done.add(b);
