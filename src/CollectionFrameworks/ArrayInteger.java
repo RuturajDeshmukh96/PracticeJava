@@ -10,8 +10,8 @@ public class ArrayInteger {
         Score.add(15);
         Score.add(0);
         Score.remove(Integer.valueOf(0));
-        System.out.println( "The size of Array is : \n " + Score.size());
-  System.out.println("The score are ");
+        System.out.println( "Th esize of Array is : \n " + Score.size());
+  System.out.println("The score are : ");
   for (Integer s :Score ){
       System.out.println(s);
   }
