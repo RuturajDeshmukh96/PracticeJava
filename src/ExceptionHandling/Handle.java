@@ -3,6 +3,7 @@ package ExceptionHandling;
 public class Handle {
     public static void main(String[] args) {
 
+
         try {
             int a = 10;
             int b = 0;
