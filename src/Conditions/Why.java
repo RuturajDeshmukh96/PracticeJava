@@ -6,6 +6,9 @@ public class Why {
 
         while (i <=100) {
             System.out.println(i);
+
+
+
             if ( i == 50 ){
                 break;
             }
