@@ -6,7 +6,7 @@ public class Amazon {
         shopping.add("ihone");
         shopping.add("redmi");
         shopping.add("samsung");
-        shopping.add("nokia");
+        shopping.add(                                "nokia");
 
         shopping.remove("nokia");
         System.out.println(shopping.size());
