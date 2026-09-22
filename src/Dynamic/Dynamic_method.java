@@ -1,6 +1,6 @@
 package Dynamic;
 
-import oops.SmartPhone;
+
 
 class Phone {
     public void phone (){
