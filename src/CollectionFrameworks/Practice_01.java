@@ -13,9 +13,7 @@ public class Practice_01 {
     class done_2 {
         public static void main(String[] aegs) {
             ArrayList<String> s1 = new ArrayList<>();
-            // s1.add("RUn1") ;
-            //s1.add("Attack");
-            //s1.add("Run");
+
             Practice_01 p1 = new Practice_01();
             //System.out.println(p1.OP("RUtu");
          p1.OP("Rutu");
