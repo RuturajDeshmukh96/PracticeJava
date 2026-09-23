@@ -15,11 +15,12 @@ public class Practice_01 {
             ArrayList<String> s1 = new ArrayList<>();
 
             Practice_01 p1 = new Practice_01();
-            //System.out.println(p1.OP("RUtu");
-         p1.OP("Rutu");
-         p1.OP("RAJ");
 
-         s1.add(p1.name);
+            p1.OP("Rutu");
+            p1.OP("Raj");
+            p1.OP("Suraj");
+
+            s1.add(p1.name);
 
 
             for (String p : s1) {
