@@ -11,7 +11,7 @@ public class HashM {
         done.put("dj",3);
 
         done.put("rj",3);
-        done.remove(3);
+       done.remove("aj",2);
 
 
         for (String d : done.keySet()){
