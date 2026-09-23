@@ -5,12 +5,13 @@ public class HashM {
         HashMap<String,Integer > done =  new HashMap<>();
 
         done.put("Rutu",1);
-
+       done .put("RD",5);
         done.put("aj",2);
 
         done.put("dj",3);
 
-        done.put("vj",3);
+        done.put("rj",3);
+        done.remove(3);
 
 
         for (String d : done.keySet()){
