@@ -9,7 +9,6 @@ public class Boss {
         System.out.println("static method with the parameter " + (a + b));
         return a + b;
     }
-
     public static void main(String [] raj){
 
   System.out.println("thiss is printing command line arguments ");
