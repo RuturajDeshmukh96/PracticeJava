@@ -24,7 +24,11 @@ public void show () {
 }
 public static void main (String[] args){
     Order o  = new Order(1000,"TOFO",500.0d,"failes");
+    System.out.println("old order");
     o.show();
+    Order o1 = new Order( o);
+    System.out.println("New order");
+    o1.show();
 }
 
 
