@@ -20,8 +20,12 @@ public Order (Order old ) {
 }
 public void show () {
 
+    System.out.println(productName+ totalPrize + orderStatus + orderId);
 }
-
+public static void main (String[] args){
+    Order o  = new Order(1000,"TOFO",500.0d,"failes");
+    o.show();
+}
 
 
 }
