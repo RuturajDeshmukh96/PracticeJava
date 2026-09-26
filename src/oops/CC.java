@@ -11,7 +11,7 @@ public class CC {
         this. age = N .age ;
     }
     public void show (){
-        System.out.println("  name - " + name + "  : age  " + age );
+        System.out.println("name - " + name + "  : age  " + age );
     }
     public void reduce (int reduceage){
         age =  age  - reduceage ;
@@ -24,7 +24,7 @@ class Run4 {
         System.out.println("Start...");
         r1.show();
         r2.show();
-        System.out.println(" reducing the age by -1  ");
+        System.out.println("Reducing the age by -1  ");
         r1.reduce(1);
         System.out.println("final ");
         r1.show();
