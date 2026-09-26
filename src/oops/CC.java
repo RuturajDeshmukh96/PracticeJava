@@ -6,9 +6,9 @@ public class CC {
         this.name = name ;
         this.age = age ;
     }
-    public CC (CC New  ){
-        this. name = New .name ;
-        this. age = New .age ;
+    public CC (CC N  ){
+        this. name = N.name ;
+        this. age = N .age ;
     }
     public void show (){
         System.out.println("  name - " + name + "  : age  " + age );
