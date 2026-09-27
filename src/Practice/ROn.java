@@ -13,9 +13,9 @@ public class ROn {
 
         // COPY CONSTRUCTOR (Your turn to write this!)
         public ROn(ROn oldTeam) {
-            // 1. Copy the team name from the oldTeam
+
                    this .teamName = oldTeam.teamName;
-            // 2. Hardcode the new score to 0
+
                         this . score = 100;
         }
         public void show (){
@@ -23,7 +23,12 @@ public class ROn {
         }
         public static void main (String [] arg ){
              ROn r1 = new ROn("babu bhai", 90);
+            System.out.println("original");
             r1.show();
+
+            ROn r2 = new ROn(r1);
+            System.out.println("clone");
+        r2.show();
         }
     }
 
