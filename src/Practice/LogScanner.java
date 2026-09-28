@@ -1,4 +1,4 @@
-package scanexample;
+package Practice;
 
 //public class R {
 
