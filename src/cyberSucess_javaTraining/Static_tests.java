@@ -14,3 +14,7 @@ public class Static_tests {
     	 obj.sysom();
 	}
       }
+
+// static = we can create static class only inside a class means nested class 
+// for creating object of that class we need to create first main class then nested class using . 
+// for example Main.static_class c1 = new Main.static_class ();
