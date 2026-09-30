@@ -7,8 +7,8 @@ public class Variable {
 	int a = 10 ; // instance variable called anywhere like in instance method but not in the static method 
 	// for calling the instance variable int the static method we need to create an object o that class 
 	// like as shown in static one method 
-	// for assigning the value to the instace variable we need to create an object always 
-	// java gives defult 0 value to the instance variable if we not written or assign 
+	// for assigning the value to the instance variable we need to create an object always 
+	// java gives deafult 0 value to the instance variable if we not written or assign 
 	
 	
 	public static  void one () {
