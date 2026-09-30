@@ -4,7 +4,7 @@ public class Static_tests {
 	
       static class rutu {
     	  private void sysom() {
-    		  System.out.println("This is from the nested static class");
+    		  System.out.println("This is from the nested static class : ");
     		  
     	  }
       }
