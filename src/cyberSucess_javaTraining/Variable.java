@@ -27,10 +27,11 @@ public class Variable {
 	}
 	
 	
+	
 public static void main (String [] args ) {
 	Variable v = new Variable ();
 	
-	// v.one();
+	
 	v.two();
 	Variable .one();
 }
