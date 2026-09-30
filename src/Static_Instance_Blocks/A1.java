@@ -8,6 +8,7 @@ public class A1 {
             System.out.println("Hello from static method");
         }
         public static void main(String[] args) {
-
+            System.out.println("push");
         }
-    }
+
+}
