@@ -6,7 +6,7 @@ public class Exception1 {
             int a = 10 ;
             int b = 0 ;
             System.out.println("The Answer is :" + a+b);
-            System.out.println("The Answer is :" + a/b);
+            System.out.println("The Answer is     :" + a/b);
 
         }catch (Exception e ){
             System.out.println("SomeThing is wrong in this code ");
