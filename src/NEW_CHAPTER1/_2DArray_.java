@@ -8,7 +8,7 @@ public class _2DArray_ {
                            {6,5,4}};
         System.out.println("printing the array 1" );
         System.out.println(Arrays.deepToString(mat1) );
-        System.out.println("printing the array 2");
+        System.out.println("  printing the array 2");
         System.out.println(Arrays.deepToString(mat2));
 
     }
