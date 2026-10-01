@@ -8,7 +8,7 @@ public class Gun {
             System.out.println(a/b);
         } catch (Exception e) {
 
-            System.out.println("there is an err in code");
+            System.out.println("There is an err in code");
         }
     }
 }
