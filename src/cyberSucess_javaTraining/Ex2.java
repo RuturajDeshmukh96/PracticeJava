@@ -10,20 +10,20 @@ public class Ex2 {
  }
  void calculate () {
 	if (marks <= 90 ) {
-		System.out.println("Grade A ");
+		System.out.println(" Grade A ");
 	} else if (marks <=  75  ) {
-	System.out.println("Grade B");
+	System.out.println(" Grade B");
  } else if (marks <= 60 ) {
-  System.out.println("Grade C ");
+  System.out.println(" Grade C ");
 }else {
-	System.out.println("Fail");
+	System.out.println(" Fail ");
 }
 }
   public static void main (String [] args ) {
 	  Ex2 e = new Ex2 ();
 	  e.marks= 91f ;
 	  e.rollNo= 15 ;
-	  e.studName="Rutu";
+	  e.studName="Ruturaj";
 	  e.displayStud();
 	  e.calculate ();
 }
