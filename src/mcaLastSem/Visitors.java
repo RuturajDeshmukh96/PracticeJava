@@ -9,7 +9,7 @@ Visitors (String visitorName , int totalVisitor ){
 	this.visitorName = visitorName ;
 }
 public static void show () {
-	System.out.println(totalVisitor + visitorName);
+	System.out.println( "Visitor count :  " + totalVisitor + " | | Visitor name : "+visitorName);
 }
 
 public static void main(String[] args) {
