@@ -10,8 +10,10 @@ public class EX_01 {
     }
         public void show () {
             System.out.println("|| Name : " + name + "|| Age : " + age + "|| Marks :" + marks);
-       if (marks > 35 ){
+       if (marks > 1055 ){
            System.out.println("Student is Pass" );
+       }else {
+           System.out.println("The Stud is Fail_!!! ");
        }
     }}
  class EX_001 extends EX_01 {
