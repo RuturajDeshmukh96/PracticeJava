@@ -6,11 +6,11 @@ public class Chaain1 {
     float marks ;
     String pass ;
     public Chaain1 m1 (String name) {
-        System.out.println(" The frist methood - Name : " + name);
+        System.out.println(" The frist methood  - Name : " + name);
         return this ;
     }
     public Chaain1 m2 (int age ) {
-        System.out.println(" The second methood - age : " + age );
+        System.out.println(" The second methood  - age : " + age );
         return this ;
     }
     public Chaain1 m3  (float marks ){
