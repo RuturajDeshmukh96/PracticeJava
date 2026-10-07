@@ -13,7 +13,7 @@ package Practice;
 
 
      if (serverLogs [i]== 404 ){
-         System.out.println("Error 404 found!");
+         System.out.println(" Error 404 found! ");
          break;
      }else {
          System.out.println("Not Found ");
