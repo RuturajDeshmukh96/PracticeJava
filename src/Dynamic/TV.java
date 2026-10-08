@@ -9,10 +9,10 @@ class Oldtv {
 }
 class Smartv extends Oldtv {
     public void smart () {
-        System.out.println("The is smart tv ");
+        System.out.println(" The is smart tv ");
     }
     public void on () {
-        System.out.println("The NEW TV is on ");
+        System.out.println(" The NEW TV is on ");
     }
 }
 public class TV {
