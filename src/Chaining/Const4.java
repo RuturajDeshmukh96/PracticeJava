@@ -5,7 +5,7 @@ public class Const4 {
     int marks ;
     Float score ;
     public Const4(){
-        this ("Ruturaj ", 21 , 89.0f);
+        this ("Ruturaj_Deshmukh", 21 , 89.0f);
 
     }
     public Const4(String name , int age , float score ){
