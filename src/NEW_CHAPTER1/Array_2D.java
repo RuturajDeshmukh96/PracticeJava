@@ -2,6 +2,7 @@ package NEW_CHAPTER1;
 
 public class Array_2D {
     public static void main (String [] args ){
+        System.out.println("This is Printing 2D Array");
         int [] [] flats ;
         flats = new int [2] [3];
         flats [0] [0] = 001;

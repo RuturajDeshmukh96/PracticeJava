@@ -16,12 +16,12 @@ public class M6 {
 
         public void mca(){
 
-        System.out.println("Non static method no.1");
+        System.out.println(" Non static method no.1 ");
 
     }
     public void mba(){
 
-        System.out.println(" Non static method no.2");
+        System.out.println(" Non static method no.2 ");
     }
 
     public void done (){
