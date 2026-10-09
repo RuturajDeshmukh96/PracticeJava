@@ -12,7 +12,7 @@ public class Const4 {
         this .name = name ;
         this . marks  = marks ;
         this. score = score ;
-        System.out.println(" * the name is : " + name + "  the age is : " + age + "  the  score is : " + score);
+        System.out.println(" The stud name is : " + name + "||  The Stud age is : " + age + "||  The Stud score is : " + score);
 
     }
 
