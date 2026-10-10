@@ -16,7 +16,7 @@ public class Const4 {
 
     }
 
-    static void main() {
+    public static void main(String[] args) {
         Const4 c = new Const4();
     }
 }
