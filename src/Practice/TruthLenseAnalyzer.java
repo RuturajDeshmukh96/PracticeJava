@@ -7,6 +7,9 @@ public class TruthLenseAnalyzer {
     String videoId;
     double fakeProbability;
     TruthLenseAnalyzer ( String videoId , double fakeProbability ){
+        this.videoId = videoId;
+       // this. alertThreshold =  alertThreshold ;
+        this. fakeProbability =  fakeProbability;
     }
     public void checkStatus () {
         if (fakeProbability < alertThreshold){
