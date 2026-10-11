@@ -6,7 +6,7 @@ public class TruthLenseAnalyzer {
     static String leadAnalyst = "Ruturaj";
     String videoId;
     double fakeProbability;
-    TruthLenseAnalyzer ( String videoId ,  double fakeProbability ){
+    TruthLenseAnalyzer ( String videoId , double fakeProbability ){
     }
     public void checkStatus () {
         if (fakeProbability < alertThreshold){
@@ -20,5 +20,15 @@ public class TruthLenseAnalyzer {
         t1.checkStatus();
         TruthLenseAnalyzer t2 = new TruthLenseAnalyzer("002",95.0);
         t2. checkStatus();
+
+        double[] dailyScores = {45.5, 88.0, 92.5, 30.0, 99.1, 75.0};
+        double maxScore = dailyScores [0];
+
+        for (int i = 1 ; i < dailyScores.length;i++) {
+            if (dailyScores[i]> maxScore){
+                maxScore =  dailyScores [i];
+            }
+        }
+
     }
 }
