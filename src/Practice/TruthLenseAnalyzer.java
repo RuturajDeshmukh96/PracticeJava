@@ -2,7 +2,7 @@ package Practice;
 
 public class TruthLenseAnalyzer {
 
-    static double alertThreshold = 90.0 ;
+    static double alertThreshold = 19.0 ;
     static String leadAnalyst = "Ruturaj";
     String videoId;
     double fakeProbability;
@@ -12,8 +12,8 @@ public class TruthLenseAnalyzer {
         this. fakeProbability =  fakeProbability;
     }
     public void checkStatus () {
-        if (fakeProbability < alertThreshold){
-            System.out.println("ALERT: Deepfake detected in " + videoId + " - Notify " + leadAnalyst);
+        if (fakeProbability > alertThreshold){
+            System.out.println("  ALERT: Deepfake detected in " + videoId + " - Notify " + leadAnalyst);
         }else {
             System.out.println("Checking the video Deeeply");
         }
