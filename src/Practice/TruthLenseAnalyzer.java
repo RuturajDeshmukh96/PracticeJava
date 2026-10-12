@@ -15,7 +15,7 @@ public class TruthLenseAnalyzer {
         if (fakeProbability > alertThreshold){
             System.out.println("  ALERT: Deepfake detected in " + videoId + " - Notify " + leadAnalyst);
         }else {
-            System.out.println("C hecking the video Deeeply");
+            System.out.println(" Checking the video Deeeply");
         }
     }
     public static  void main (String[] args){
