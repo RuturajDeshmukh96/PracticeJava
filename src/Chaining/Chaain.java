@@ -13,7 +13,8 @@ public class Chaain {
         this . name = name ;
         this.score = score  ;
         this . age = age ;
-        System.out.println("The name of Stud is " + name + "The score of stud " + score );
+        System.out.println("|| The name of Stud is : " + name + " || The score of stud : || " + score );
+
     }
     public static void main(String [] args ) {
         Chaain c= new  Chaain () ;
