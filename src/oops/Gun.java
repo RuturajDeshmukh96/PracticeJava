@@ -19,7 +19,7 @@ public class Gun {
     public  void shoot (int bulletfired ){
         ammo = ammo - bulletfired;
         if (ammo <= 0 ){
-            System.out.println("Out of Ammo! Reload needed! ");
+            System.out.println(" Out of Ammo! Reload needed! ");
         }else {
             System.out.println("Bullets left: " + ammo);
         }
