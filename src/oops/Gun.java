@@ -39,7 +39,6 @@ public class Gun {
         Gun ak = new Gun ("Ak-47" ) ;
         ak.shoot(10);
         ak.shoot(10);
-       //  System.out.println("Gun is reloading " + reload(230));
         ak.reload(230);
     }
 }
