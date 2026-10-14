@@ -8,7 +8,7 @@ public class Gun {
     public Gun (String gunName){
         this. gunName=gunName;
         this. ammo = 30  ;
-        System.out.println("Gun Equipped: " + gunName);
+        System.out.println("Gun Equipped : " + gunName);
     }
     public String getGunName() {
         return getGunName();
