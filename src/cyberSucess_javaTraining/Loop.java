@@ -10,13 +10,23 @@ public class Loop {
 				
 				System.out.print(letter +  " ");
 			     	letter++; 
-//			     	while (j == 'j') {
-//			     		break;
-//			     	}
 				
 			}
 			
 			System.out.println();
+		}
+		System.out.println("New Task ");
+		char letter1 = 'a';
+		
+		for (int i = 4 ; i >=1 ; i--) {
+			
+			for (int j = 1 ; j <= i ; j++) {
+				
+				System.out.print(letter1);
+			
+			}
+			System.out.println();
+			letter1++;
 		}
 	}
 
