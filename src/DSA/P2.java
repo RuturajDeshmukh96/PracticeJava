@@ -24,11 +24,12 @@ public class P2 {
         }
 
 
-        for (int i = 0 ; i < col ; i++){2
+        for (int i = 0 ; i < col ; i++){
             for (int j =0 ; j< col; j++){
-                System.out.println("Prinitng Your Elements :- ");
+
                 System.out.println(Array[i][j] + " ");
             }
         }
+        System.out.println("Prinitng Your Elements :- ");
     }
 }
