@@ -14,7 +14,7 @@ public class P2 {
         int col = s.nextInt();
 
         System.out.println("Enter your array elements : ");
-        int Array [][] = new int [row][col];
+        int Array []  [] = new int [row][col];
 
 
         for (int i = 0 ; i < row ;  i ++){
