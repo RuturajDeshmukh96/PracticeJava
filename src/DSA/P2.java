@@ -30,6 +30,6 @@ public class P2 {
                 System.out.println(Array[i][j] + " ");
             }
         }
-        System.out.println("Prinitng Your Elements :- ");
+        System.out.println("Printing Your Elements :- ");
     }
 }
