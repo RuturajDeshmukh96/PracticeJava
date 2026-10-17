@@ -7,10 +7,10 @@ public class P2 {
 
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Enter Row numbers : ");
+        System.out.println("Enter Row numbers: ");
         int row = s.nextInt();
 
-        System.out.println("Enter column numbers : ");
+        System.out.println("Enter column numbers: ");
         int col = s.nextInt();
 
         System.out.println("Enter your array elements : ");
