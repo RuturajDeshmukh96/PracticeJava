@@ -9,8 +9,8 @@ public class Parent {
 
     protected void m2(){
 
-        System.out.println("this is a protected method it nly can be accessed in the same pkg class");
-        System.out.println("if we wan acccess in the diffeerent class we have to import and extend and ose the chiold class own object to call it");
+        System.out.println("||this is a protected method it nly can be accessed in the same pkg class");
+        System.out.println("||if we wan acccess in the diffeerent class we have to import and extend and ose the chiold class own object to call it");
     }
 
 }
