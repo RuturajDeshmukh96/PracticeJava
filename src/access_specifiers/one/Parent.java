@@ -4,7 +4,7 @@ public class Parent {
 
     void m1(){
 
-        System.out.println("this is a default method it can only be accessd within the same package classes");
+        System.out.println("||this is a default method it can only be accessd within the same package classes");
     }
 
     protected void m2(){
