@@ -9,8 +9,8 @@ public class HashM {
         done.put(" aj : ",2);
         done.put(" dj : ",3);
 
-        done.put("rj : ",3);
-       done.remove("aj : ",2);
+        done.put(" rj : ",3);
+       done.remove(" aj : ",2);
 
 
         for (String d : done.keySet()){
