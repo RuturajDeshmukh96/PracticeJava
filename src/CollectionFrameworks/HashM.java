@@ -4,7 +4,7 @@ public class HashM {
     public static void main (String[] args){
         HashMap<String,Integer > done =  new HashMap<>();
 
-        done.put("Rutu",1);
+        done.put("Rutu : ",1);
        done .put("RD",5);
         done.put("aj",2);
         done.put("dj",3);
