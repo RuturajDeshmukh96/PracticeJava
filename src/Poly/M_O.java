@@ -15,7 +15,7 @@ public class M_O {
     public static void main (String [] args ){
 
 
-       int a= M_O.run(32,33,22);
+       int a= M_O.run(32,53,22);
         System.out.println(a);
     int b = M_O.run(12,34);
          System.out.println(b);
