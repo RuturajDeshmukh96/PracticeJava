@@ -13,7 +13,7 @@ public static void show () {
 }
 
 public static void main(String[] args) {
-	Visitors v = new Visitors  ("Ruturaj " , 1 );
+	Visitors v = new Visitors  (" Ruturaj " , 1 );
    Visitors.show();
 }
 }
