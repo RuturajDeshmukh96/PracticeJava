@@ -9,11 +9,11 @@ Visitors (String visitorName , int totalVisitor ){
 	this.visitorName = visitorName ;
 }
 public static void show () {
-	System.out.println( "  Visitor count :  " + totalVisitor + " | | Visitor name : "+visitorName);
+	System.out.println( "Visitor count :  " + totalVisitor + " | | Visitor name : "+visitorName);
 }
 
 public static void main(String[] args) {
-	Visitors v = new Visitors  (" Ruturaj : " , 1 );
+	Visitors v = new Visitors  ("Ruturaj : " , 1 );
    Visitors.show();
 }
 }
