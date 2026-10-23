@@ -4,7 +4,7 @@ public class Chain1 {
     String name ;
     double marks ;
     public Chain1 () {
-        this("Ruturaj", 89.99);
+        this("Ruturaj : ", 89.99);
         System.out.println("thiss is default constructor ");
     }
     public Chain1 (String name , double marks ){
