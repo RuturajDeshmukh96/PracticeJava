@@ -11,9 +11,9 @@ class CricketTeam {
         Array_List.start();
         players.add("One:");
         players.add("Two:");
-        players.add("Three");
-        players.add("Four");
-        players.add("Five");
+        players.add("Three:");
+        players.add("Four:");
+        players.add("Five:");
         System.out.println(players);
         players.remove(1);
         System.out.println(players.size());
