@@ -9,8 +9,8 @@ class CricketTeam {
     public static void main(String[] args) {
         ArrayList<String> players = new ArrayList<>();
         Array_List.start();
-        players.add("One");
-        players.add("Two");
+        players.add("One:");
+        players.add("Two:");
         players.add("Three");
         players.add("Four");
         players.add("Five");
