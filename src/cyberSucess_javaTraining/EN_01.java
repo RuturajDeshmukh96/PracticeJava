@@ -5,23 +5,21 @@ public class EN_01 {
  private String b ;
  
  public void  seta (int a , String b ) {
-	  a = 10 ;
-	 b = "Run";
+	 this.a = a ;
+	 this .b = b ;
 
  }
- public int geta(int a) {
-	 
-	 System.out.println("This is printing A " +a);
-	 return a ; 
+ public int geta() {
+	return this.a ; 
  }
- public String getb(String b) {
-	 System.out.println("this is printing B"  + b );
-	 return b ; 
+ public String getb() {
+	 return this .b ; 
  }
  public static void main(String[] args) {
 	EN_01 r = new EN_01();
-	r.seta(0, null);
-	r.geta(0);
-	r.getb(null);
+       r.seta(10 , "Run");
+  System.out.println(r.geta());
+  System.out.println(r.getb());
+  
 }
 }
