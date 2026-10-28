@@ -1,5 +1,6 @@
 package cyberSucess_javaTraining;
 class EN_05{
+	
 private String carName ;
 private String carSpeed;
 
