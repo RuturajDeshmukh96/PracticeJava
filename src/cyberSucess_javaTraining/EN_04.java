@@ -17,12 +17,17 @@ public String setname() {
 public String setspeed() {
 	return this.carSpeed;
 }
+public void run() {
+	System.out.println("This method is from base class");
+}
 }
 
-public class EN_04 {
+
+public class EN_04 extends EN_05 {
 public static void main (String [] args) {
 	EN_05 R = new EN_05();
 	
+R.run();
 R.setValues("Supraaaaa","220 hr/km");
 System.out.println("This Is Printing The Name of the Car : "+R.setname());
 System.out.println("This Is  Printing Top Speed of the Car : " + R.setspeed());
