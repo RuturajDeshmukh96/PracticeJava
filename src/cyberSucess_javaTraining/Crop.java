@@ -17,6 +17,7 @@ public static void main (String [] name) {
 	Wheat T1 = new Wheat ("Soham : ","Wheat : ","1000kg");
 	T1.detailsW();
 }
+
 }
 class Tomato extends Crop {
 	public Tomato(String farmerName, String cropName,String weight){
@@ -32,10 +33,8 @@ class Wheat extends Crop {
 	Wheat (String farmerName, String cropName,String weight){
 	super(farmerName, cropName,weight );
 	}
-	
 	public void detailsW ( ) {
 	System.out.println(farmerName+cropName +weight );
 	}
 	
 	}
-}
