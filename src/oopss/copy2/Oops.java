@@ -1,4 +1,4 @@
-package cyberSucess_javaTraining;
+package oopss.copy2;
 
 public class Oops {
 	int newdeposit ;
@@ -9,7 +9,7 @@ public class Oops {
 	}
 	public void  addbalance (){
 		// this.bankbalance = bankbalance ; 
-		bankbalance = bankbalance + newdeposit ;
+		bankbalance  = bankbalance + newdeposit ;
 		System.out.println(bankbalance);
 	}
 public static void main (String [ ] args ) {
