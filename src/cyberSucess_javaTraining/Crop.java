@@ -1,4 +1,4 @@
-package oopss.copy2;
+package cyberSucess_javaTraining;
 
 public class Crop {
 String farmerName ;
@@ -9,6 +9,13 @@ public Crop(String farmerName, String cropName,String weight  ){
 	this.farmerName= farmerName ;
 	this.cropName = cropName;
 	this.weight = weight ;
+}
+public static void main (String [] name) {
+	Tomato T = new Tomato("Ruturaj : ", "tomato : ","500kg");
+	T.detailsT();
+	
+	Wheat T1 = new Wheat ("Soham : ","Wheat : ","1000kg");
+	T1.detailsW();
 }
 }
 class Tomato extends Crop {
@@ -30,12 +37,5 @@ class Wheat extends Crop {
 	System.out.println(farmerName+cropName +weight );
 	}
 	
-	public static void main (String [] name) {
-		Tomato T = new Tomato("ruturaj", "tomato","500kg");
-		T.detailsT();
-		
-		Wheat T1 = new Wheat ("Soham","Wheat","1000kg");
-		T1.detailsW();
-		
 	}
 }
