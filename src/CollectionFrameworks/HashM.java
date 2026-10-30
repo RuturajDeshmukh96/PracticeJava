@@ -5,7 +5,7 @@ public class HashM {
         HashMap<String,Integer > done =  new HashMap<>();
 
         done.put("Rutu :-",1);
-       done .put("RD :-",7);
+       done .put("RD :-",4);
         done.put("aj :-",2);
         done.put("dj :-",3);
 
