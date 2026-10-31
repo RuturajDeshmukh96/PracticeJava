@@ -5,7 +5,7 @@ public class Amazon {
         ArrayList<String> shopping = new ArrayList<>();
         shopping.add("ihone");
         shopping.add("redmi");
-        shopping.add("samsung");
+        shopping.add(" samsung");
         shopping.add(                                "nokia");
 
         shopping.remove("nokia");
