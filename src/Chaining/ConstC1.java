@@ -4,7 +4,7 @@ public class ConstC1 {
     String name ;
     int age ;
     public ConstC1 ( ){
-        this("Rutu", 18);
+        this("Rutu", 19);
     }
     public ConstC1 (String name ,int age) {
         this.name = name; // "Ruturaj\n";
