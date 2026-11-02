@@ -14,10 +14,10 @@ public class Data{
 class Data1 {
     public static void main(String [] args ){
         LinkedList<Data> data = new LinkedList<>();
-        Data d1 = new Data("Ruturaj:");
-        Data d2 = new Data("Rahul:");
-        Data d3 = new Data("Rohit:");
-        Data d4 = new Data("Ronaldo:");
+        Data d1 = new Data("Ruturaj");
+        Data d2 = new Data("Rahul");
+        Data d3 = new Data("Rohit");
+        Data d4 = new Data("Ronaldo");
 
         data.addFirst(new Data("dj"));
         data.removeLast();
