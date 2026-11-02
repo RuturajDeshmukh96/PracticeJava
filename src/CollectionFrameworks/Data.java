@@ -18,9 +18,23 @@ class Data1 {
         Data d2 = new Data("Rahul");
         Data d3 = new Data("Rohit");
         Data d4 = new Data("Ronaldo");
+        Data d5 = new Data("Messi");
 
-        data.addFirst(new Data("dj"));
-        data.removeLast();
+        System.out.println("This is listing the List now :- Data\n" );
+
+        data.add(d1);
+        data.add(d2);
+        data.add(d3);
+        data.add(d4);
+        data.add(d5);
+
+
+
+
+
+        data.addFirst(new Data("dj\n"));
+        data.remove(d5);
+      //  Data.removeLast();
         for (Data d : data){
         System.out.println(d.name);
     }}
