@@ -3,12 +3,15 @@ package cyberSucess_javaTraining;
 public class Crop {
 String farmerName ;
 String cropName ;
-String weight;
+int  weight;
+int price  ;
 
-public Crop(String farmerName, String cropName,String weight  ){
-	this.farmerName= farmerName ;
+
+public Crop(String farmerName, String cropName, int weight, int price    ){
+	this.farmerName= farmerName ; 
 	this.cropName = cropName;
 	this.weight = weight ;
+	this.price = price ;
 }
 
 public void calMarketprice() {
@@ -28,18 +31,24 @@ public static void main (String [] name) {
 
 }
 class Tomato extends Crop {
-	public Tomato(String farmerName, String cropName,String weight){
-	super(farmerName, cropName,weight );
+	public Tomato(String farmerName, String cropName,int   weight , int price ){
+	super(farmerName, cropName,weight,price );
+	//this.price = price ;
 	}
 	public void detailsT ( ) {
 		System.out.println(farmerName + cropName+ weight);
+	}
+	@Override
+		public void calMarketprice() {
+		System.out.println("Let's calculate the price of the tomato based on its weight : ");
+		System.out.println(price = price * weight); 
 	}
 }
 
 class Wheat extends Crop {
 	
-	Wheat (String farmerName, String cropName,String weight){
-	super(farmerName, cropName,weight );
+	public Wheat (String farmerName, String cropName,int   weight , int price ){
+		super(farmerName, cropName,weight,price );
 	}
 	public void detailsW ( ) {
 	System.out.println(farmerName+cropName +weight );
