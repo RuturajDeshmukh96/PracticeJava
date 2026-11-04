@@ -10,12 +10,20 @@ public Crop(String farmerName, String cropName,String weight  ){
 	this.cropName = cropName;
 	this.weight = weight ;
 }
+
+public void calMarketprice() {
+	System.out.println("This is method is used to Calculate Market Prices : ");
+}
+
+
 public static void main (String [] name) {
 	Tomato T = new Tomato("Ruturaj : ", "tomato : ","500kg");
 	T.detailsT();
 	
 	Wheat T1 = new Wheat ("Soham : ","Wheat : ","1000kg");
 	T1.detailsW();
+	T1.calMarketprice();
+	
 }
 
 }
