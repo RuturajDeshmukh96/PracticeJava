@@ -26,6 +26,7 @@ public static void main (String [] name) {
 	Wheat T1 = new Wheat ("Soham : ","Wheat : ",100,90);
 	T1.detailsW();
 	T1.calMarketprice();
+	 
 	
 }
 
