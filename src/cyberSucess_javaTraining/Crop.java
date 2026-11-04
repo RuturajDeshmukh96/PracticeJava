@@ -20,10 +20,10 @@ public void calMarketprice() {
 
 
 public static void main (String [] name) {
-	Tomato T = new Tomato("Ruturaj : ", "tomato : ","500kg");
+	Tomato T = new Tomato("Ruturaj : ", "tomato : ",500,50);
 	T.detailsT();
 	
-	Wheat T1 = new Wheat ("Soham : ","Wheat : ","1000kg");
+	Wheat T1 = new Wheat ("Soham : ","Wheat : ",100,90);
 	T1.detailsW();
 	T1.calMarketprice();
 	
