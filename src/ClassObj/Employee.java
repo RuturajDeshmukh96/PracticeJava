@@ -25,10 +25,10 @@ class EmployeeData{
     public static void main (String [] args ){
         Employee akash = new Employee();
         Employee rushi = new Employee();
-        rushi.name="Rushikesh";
+        rushi.name="Rushikesh:";
         rushi.id= 22;
         rushi.salary = 50000.0f;
-        akash.name = "Akash";
+        akash.name = "Akash:";
         akash.id = 10;
         akash.salary = 49000.0f;
         akash.employeedata();
