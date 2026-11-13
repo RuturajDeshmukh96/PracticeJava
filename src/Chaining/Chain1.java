@@ -13,6 +13,7 @@ public class Chain1 {
         this.marks = marks ;
         System.out.println("this constrctor chaining =  " + "Name : "+ name + " \nMarks :  " + marks );
     }
+
     public static void main(String [] args ){
         Chain1 c = new Chain1 ();
     }
