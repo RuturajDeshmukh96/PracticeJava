@@ -15,13 +15,14 @@ public Crop(String farmerName, String cropName, int weight, int price    ){
 }
 
 public void calMarketprice() {
-	System.out.println("This is method is used to Calculate Market Prices : ");
+	System.out.println(" Calculated Market Prices of crop is : ");
 }
 
 
 public static void main (String [] name) {
 	Tomato T = new Tomato("Ruturaj : ", "tomato : ",500,50);
 	T.detailsT();
+	T.calMarketprice();
 	
 	Wheat T1 = new Wheat ("Soham : ","Wheat : ",100,90);
 	T1.detailsW();
@@ -37,12 +38,13 @@ class Tomato extends Crop {
 	//this.price = price ;
 	}
 	public void detailsT ( ) {
-		System.out.println(farmerName + cropName+ weight);
+		System.out.println("Crop detailes : Farmer name = "+farmerName +"Crop name =   "+ cropName+"  Weight =  "+ weight+"  Market price =  " + price );
 	}
 	@Override
 		public void calMarketprice() {
 		System.out.println("Let's calculate the price of the tomato based on its weight : ");
-		System.out.println(price = price * weight); 
+		price = price * weight ;  
+		System.out.println(price );
 	}
 }
 
@@ -52,7 +54,14 @@ class Wheat extends Crop {
 		super(farmerName, cropName,weight,price );
 	}
 	public void detailsW ( ) {
-	System.out.println(farmerName+cropName +weight );
+		System.out.println("Crop detailes : Farmer name = "+farmerName +"Crop name =  "+ cropName+"  Weight = "+ weight+"   Market price = " + price);
+	}
+	@Override 
+	public void calMarketprice () {
+		System.out.println("Let's calculate the price of the Wheat based on its weight : ");
+		price = price * weight ;
+		System.out.println(price);
+		
 	}
 	
 	}

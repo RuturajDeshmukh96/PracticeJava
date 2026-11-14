@@ -12,8 +12,8 @@ class A2 {
 
 
         ArrayList<A1> Go = new ArrayList<>();
-        A1 a = new A1("Rutu");
-        A1 a2 = new A1("Raj");
+        A1 a = new A1("Ruturaj");
+        A1 a2 = new A1("Rajratna");
         A1 a3 = new A1("RutuRaj");
 
         Go.add(a);
