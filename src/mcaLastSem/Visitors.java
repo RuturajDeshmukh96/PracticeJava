@@ -1,6 +1,7 @@
 package mcaLastSem;
 
 public class Visitors {
+
 static String visitorName ;
 static int totalVisitor = 0 ;
 
