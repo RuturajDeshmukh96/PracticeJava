@@ -6,6 +6,7 @@ static String visitorName ;
 static int totalVisitor = 0 ;
 
 Visitors (String visitorName , int totalVisitor ){
+
 	this .totalVisitor = totalVisitor  ;
 	this.visitorName = visitorName ;
 }
