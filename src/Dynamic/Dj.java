@@ -10,6 +10,7 @@ package Dynamic;
         System.out.println("two");
     }
 
+
   static   class Dynamo extends Dynamic1 {
         public void three() {
             System.out.println("three ");
