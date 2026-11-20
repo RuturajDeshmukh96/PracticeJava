@@ -3,6 +3,7 @@ package Chaining;
 public class ChainC {
     int salary ;
     String name ;
+
     public ChainC () {
 
 
