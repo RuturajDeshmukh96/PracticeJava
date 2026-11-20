@@ -17,6 +17,7 @@ public class ChainC {
         this.salary = salary ;
         System.out.println("the frist constructor " + name + salary );
     }
+
     public static void main(String [] args ){
         ChainC c = new ChainC() ;
 
