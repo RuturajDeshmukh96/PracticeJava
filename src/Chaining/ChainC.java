@@ -5,6 +5,7 @@ public class ChainC {
     String name ;
     public ChainC () {
 
+
         this("Don " , 0 );
         System.out.println("the frist (Deault ) constructor ");
 
